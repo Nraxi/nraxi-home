@@ -1,3 +1,4 @@
+import Navbar from './components/Nav/Navbar';
 import './css/App.css';
 
 function App() {
@@ -8,10 +9,8 @@ function App() {
 
   return (
     <div className="background-container" style={backgroundStyle}>
-      <div className='lustigalöken'>
-        <h1>Welcome to My App</h1>
-        <p>hey</p>
-      </div>
+      <Navbar />
+
     </div>
   );
 }
