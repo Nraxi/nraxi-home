@@ -1,47 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import "../../css/Navbar.css"
-import "../../css/Movingtext.css";
+import "../../css/NavbarSecond.css"
 
-function Navbar() {
-
-  const [text, setText] = useState("Developer");
-
-  const textLoad = () => {
-    setTimeout(() => {
-      setText("Firefly");
-    }, 0);
-    setTimeout(() => {
-      setText("Developer");
-    }, 4000);
-    setTimeout(() => {
-      setText("Prodancer");
-    }, 8000);
-  }
-
-  useEffect(() => {
-    textLoad();
-    const intervalId = setInterval(textLoad, 12000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []); // Run effect only once when component mounts
-
-
-
+function NavbarSecond() {
   return (
     <div>
       <header id="header">
         <div className="container">
-          <h2 className="hej">Hejsan och Välkommen</h2>
-          <div className="container2">
-            <span className="text first-text">I'm a passionate: </span>
-            <span className='text sec-text'>{text}</span>
-          </div>
-          <h2 className="fransthlm">From Stockholm, Sweden</h2>
-
-
           <nav id="navbar" className="navbar">
             <ul>
               <li><Link to="/" className="nav-link" >Home</Link></li>
@@ -51,10 +16,7 @@ function Navbar() {
               <li><Link to="/Portfolio" className="nav-link" >Portfolio</Link></li>
               <li><Link to="/Contact" className="nav-link" >Contact</Link></li>
             </ul>
-
           </nav>
-
-
         </div>
       </header>
       <div className="social-links">
@@ -69,4 +31,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default NavbarSecond
