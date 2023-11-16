@@ -39,7 +39,7 @@ h6 {
 }
 
 .namnet {
-  margin-top: -6px;
+  margin-top: 80px;
   display: inline-block;
   padding: 10px 20px;
   margin-left: 10px;
@@ -99,20 +99,19 @@ h6 {
 }
 
 .social-links a {
-  padding: 20px;
+  padding: 5px;
   display: flex;
   margin-top: 600px;
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
-  line-height: 1;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin-left: 8%;
+  border-radius: 35%;
+  margin-left: 6%;
+  font-size: 55px;
+
 }
 
 .social-links a:hover {
-  background: #1837d2;
+  background: #d26218;
 }
 
 @media (max-width: 992px) {
@@ -174,8 +173,9 @@ h6 {
 .navbar a:before {
   content: "";
   position: absolute;
-  height: 2px;
-  bottom: -4px;
+  margin-left: 10px;
+  height: 4px;
+  bottom: 2px;
   left: 0;
   background-color: #ff831e;
   width: 0px;

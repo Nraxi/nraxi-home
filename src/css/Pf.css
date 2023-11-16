@@ -1,0 +1,14 @@
+.profilepic {
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 50px;
+  height: 280px;
+  width: 280px;
+  border-radius: 20px;
+}
+
+.namnet {
+  position: absolute;
+  margin-top: 670px;
+  margin-left: 50px;
+}

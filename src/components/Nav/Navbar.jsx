@@ -23,7 +23,7 @@ function Navbar() {
               <li><Link to="/Portfolio" className="nav-link" >Portfolio</Link></li>
               <li><Link to="/Contact" className="nav-link" >Contact</Link></li>
             </ul>
-            <i className="bi bi-list mobile-nav-toggle"></i>
+
           </nav>
 
 
@@ -34,8 +34,9 @@ function Navbar() {
         <a href="https://www.instagram.com/3k9swe/" className="instagram"><i className="bi bi-instagram"></i></a>
         <a href="https://linkedin.com/" className="linkedin"><i className="bi bi-linkedin"></i></a>
         <a href="https://github.com/nraxi" className="Github"><i className="bi bi-github"></i></a>
+        <a href="https://twitch.com/nraxi" className="Twitch"><i className="bi bi-twitch"></i></a>
       </div>
-      <h1 className="namnet"><Link to='#' className="namnetfor" >Name: Olle </Link><Link to="#" className="namnetefter"> Tengnér</Link></h1>
+
     </div >
   )
 }

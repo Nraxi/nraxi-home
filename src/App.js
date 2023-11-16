@@ -1,4 +1,5 @@
 import Navbar from './components/Nav/Navbar';
+import Pf from './components/small/Pf';
 import './css/App.css';
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
 
   return (
     <div className="background-container" style={backgroundStyle}>
+      <Pf />
       <Navbar />
-
     </div>
   );
 }
