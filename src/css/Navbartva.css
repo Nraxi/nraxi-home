@@ -1,0 +1,120 @@
+a {
+  color: #b6b6b6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff55e0;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.naven {
+  margin-top: -50px;
+}
+
+
+.header2 {
+  display: flex;
+  align-items: center;
+}
+
+.header2 h2 span {
+  color: #ff55e0;
+  border-bottom: 2px solid #ff831e;
+}
+
+
+.social-links2 {
+  display: flex;
+  margin-left: 30%;
+}
+
+.social-links2 a {
+  padding: 5px;
+  display: flex;
+  margin-top: 660px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 35%;
+  margin-left: 6%;
+  font-size: 55px;
+
+}
+
+.social-links2 a:hover {
+  background: #d26218;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+.navbar2 {
+  margin-top: 50px;
+}
+
+.navbar2 ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar2 li {
+  position: relative;
+}
+
+.navbar2 a,
+.navbar2 a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+  transition: 0.4s;
+}
+
+
+
+.navbar2 a:before {
+  content: "";
+  position: absolute;
+  margin-left: 30px;
+  height: 4px;
+  bottom: 2px;
+  left: 0;
+  background-color: #ff831e;
+  width: 0px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.navbar2 a:hover:before,
+.navbar2 li:hover>a:before,
+.navbar2 .active:before {
+  visibility: visible;
+  width: 25px;
+}
+
+.navbar2 a:hover,
+.navbar2 .active,
+.navbar2 .active:focus,
+.navbar2 li:hover>a {
+  color: #ff55e0;
+}

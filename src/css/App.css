@@ -1,0 +1,7 @@
+.background-container {
+  margin-top: -22px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

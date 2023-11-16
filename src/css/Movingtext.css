@@ -1,0 +1,48 @@
+.testar {
+  position: relative;
+  background-color: rgb(250, 0, 217);
+  width: 230px;
+  height: 50px;
+  margin-top: -8px;
+  margin-left: 20px;
+}
+
+.container2 {
+  width: 550px;
+  overflow: hidden;
+}
+
+.container2 .text {
+  position: relative;
+  color: #4070F4;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container2 .text.first-text {
+  color: aliceblue;
+}
+
+.container2 .text.sec-text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(250, 0, 217); */
+  /* border-left: 2px solid #4070F4; */
+  animation: animate 4s steps(8) infinite;
+}
+
+@keyframes animate {
+
+  40%,
+  60% {
+    left: calc(100% + 4px);
+  }
+
+  100% {
+    left: 0%;
+  }
+}
