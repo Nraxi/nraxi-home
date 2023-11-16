@@ -1,9 +1,6 @@
-import { Link } from 'react-router-dom';
-import Navbar from './components/Nav/Navbar';
 import Home from './components/Pages/Home';
-// import Pf from './components/small/Pf';
+
 import './css/App.css';
-import AboutMe from './components/Pages/AboutMe';
 
 function App() {
 

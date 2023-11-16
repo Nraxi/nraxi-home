@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/Aboutme.css"
 
-function AboutMe() {
+function Contact() {
   const backgroundStyle = {
     backgroundImage: `url(${process.env.PUBLIC_URL}/gamingbg.png)`
   };
@@ -22,4 +22,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe
+export default Contact

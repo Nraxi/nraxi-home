@@ -1,0 +1,10 @@
+.divAbout {
+  top: 1px;
+  left: 10px;
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.58);
+  border-radius: 15px;
+  margin: 210px;
+  padding: 60px 420px;
+}

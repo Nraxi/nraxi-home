@@ -9,13 +9,13 @@ function Navbar() {
 
   const textLoad = () => {
     setTimeout(() => {
-      setText("Firefly");
+      setText("Streamer");
     }, 0);
     setTimeout(() => {
       setText("Developer");
     }, 4000);
     setTimeout(() => {
-      setText("Prodancer");
+      setText("Designer");
     }, 8000);
   }
 
@@ -46,7 +46,7 @@ function Navbar() {
             <ul>
               <li><Link to="/" className="nav-link" >Home</Link></li>
               <li><Link to="/about" className="nav-link" >About</Link></li>
-              <li><Link to="/Resume" className="nav-link" >Resume</Link></li>
+              <li><Link to="/mystack" className="nav-link" >My Coding Stack</Link></li>
               <li><Link to="/Services" className="nav-link" >Services</Link></li>
               <li><Link to="/Portfolio" className="nav-link" >Portfolio</Link></li>
               <li><Link to="/Contact" className="nav-link" >Contact</Link></li>
