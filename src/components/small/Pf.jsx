@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Pf() {
   return (
-    <div>Pf
+    <div>
       <img
         className='profilepic'
         src={me2} alt="bild" />
