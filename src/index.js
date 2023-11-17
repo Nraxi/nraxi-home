@@ -1,7 +1,7 @@
 import ErrorPage from './components/Pages/ErrorPage';
 import App from './App';
 import './css/index.css';
-import * as React from "react";
+import React from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -24,27 +24,35 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <AboutMe />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "mystack",
-    element: <MyStack />
+    element: <MyStack />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "services",
-    element: <Services />
+    element: <Services />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "Portfolio",
-    element: <Portfolio />
+    element: <Portfolio />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "contact",
-    element: <Contact />
+    element: <Contact />,
+    errorElement: <ErrorPage />,
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <React.StrictMode>
+
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
 
 reportWebVitals();
