@@ -13,6 +13,7 @@ import Services from './components/Pages/Services';
 import Portfolio from './components/Pages/Portfolio';
 import Contact from './components/Pages/Contact';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Pages/Home';
 
 
 const router = createBrowserRouter([
@@ -22,29 +23,30 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "about",
-    element: <AboutMe />,
+    path: "/nraxi-home",
+    element: <App />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "about",
+    element: <AboutMe />
   },
   {
     path: "mystack",
-    element: <MyStack />,
-    errorElement: <ErrorPage />,
+    element: <MyStack />
   },
   {
     path: "services",
-    element: <Services />,
-    errorElement: <ErrorPage />,
+    element: <Services />
   },
   {
     path: "Portfolio",
-    element: <Portfolio />,
-    errorElement: <ErrorPage />,
+    element: <Portfolio />
   },
   {
     path: "contact",
-    element: <Contact />,
-    errorElement: <ErrorPage />,
+    element: <Contact />
+
   },
 ]);
 
