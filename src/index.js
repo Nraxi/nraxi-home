@@ -17,7 +17,7 @@ import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/nraxi-home",
     element: <App />,
     errorElement: <ErrorPage />,
   },

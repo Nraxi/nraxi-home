@@ -44,7 +44,7 @@ function Navbar() {
 
           <nav id="navbar" className="navbar">
             <ul>
-              <li><Link to="/" className="nav-link" >Home</Link></li>
+              <li><Link to="/nraxi-home" className="nav-link" >Home</Link></li>
               <li><Link to="/about" className="nav-link" >About</Link></li>
               <li><Link to="/mystack" className="nav-link" >My Coding Stack</Link></li>
               <li><Link to="/Services" className="nav-link" >Services</Link></li>

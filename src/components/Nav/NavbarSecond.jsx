@@ -10,7 +10,7 @@ function NavbarSecond() {
         <div className="naven">
           <nav id="navbar2" className="navbar2">
             <ul>
-              <li><Link to="/" className="nav-link2" >Home</Link></li>
+              <li><Link to="/nraxi-home" className="nav-link2" >Home</Link></li>
               <li><Link to="/about" className="nav-link2" >About</Link></li>
               <li><Link to="/mystack" className="nav-link2" >My Coding Stack</Link></li>
               <li><Link to="/Services" className="nav-link2" >Services</Link></li>
