@@ -10,7 +10,7 @@ function AboutMe() {
     <div className="background-container" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divAbout'>
-        <h1>ABOUT ME HEY</h1>
+        <h1>ABOUT MEs HEY</h1>
         <h1>ABOUT ME HEY</h1>
         <h1>ABOUT ME HEY</h1>
         <h1>ABOUT ME HEY</h1>
