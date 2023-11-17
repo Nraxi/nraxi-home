@@ -34,7 +34,7 @@ function Navbar() {
     <div>
       <header id="header">
         <div className="container">
-          <h2 className="hej">Hejsan och Välkommen</h2>
+          <h2 className="hej">Hello and Welcome to my Website</h2>
           <div className="container2">
             <span className="text first-text">I'm a passionate: </span>
             <span className='text sec-text'>{text}</span>
