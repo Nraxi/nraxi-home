@@ -12,6 +12,7 @@ import MyStack from './components/Pages/MyStack';
 import Services from './components/Pages/Services';
 import Portfolio from './components/Pages/Portfolio';
 import Contact from './components/Pages/Contact';
+import reportWebVitals from './reportWebVitals';
 
 
 const router = createBrowserRouter([
@@ -45,3 +46,5 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
+
+reportWebVitals();
