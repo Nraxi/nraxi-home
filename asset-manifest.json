@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nraxi-home/static/css/main.b4e47da5.css",
-    "main.js": "/nraxi-home/static/js/main.6aa1d4b2.js",
+    "main.css": "/nraxi-home/static/css/main.69f3ecdb.css",
+    "main.js": "/nraxi-home/static/js/main.90dd1697.js",
     "static/js/787.ff7413ca.chunk.js": "/nraxi-home/static/js/787.ff7413ca.chunk.js",
     "static/media/me2.png": "/nraxi-home/static/media/me2.7e50a0eda27f17ef2b1f.png",
     "index.html": "/nraxi-home/index.html",
-    "main.b4e47da5.css.map": "/nraxi-home/static/css/main.b4e47da5.css.map",
-    "main.6aa1d4b2.js.map": "/nraxi-home/static/js/main.6aa1d4b2.js.map",
+    "main.69f3ecdb.css.map": "/nraxi-home/static/css/main.69f3ecdb.css.map",
+    "main.90dd1697.js.map": "/nraxi-home/static/js/main.90dd1697.js.map",
     "787.ff7413ca.chunk.js.map": "/nraxi-home/static/js/787.ff7413ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4e47da5.css",
-    "static/js/main.6aa1d4b2.js"
+    "static/css/main.69f3ecdb.css",
+    "static/js/main.90dd1697.js"
   ]
 }
