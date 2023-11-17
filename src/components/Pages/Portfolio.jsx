@@ -1,6 +1,8 @@
 import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
-import "../../css/Aboutme.css"
+import "../../css/Portfolio.css"
+import Karusell from '../carousel/Karusell';
+
 
 function Portfolio() {
   const backgroundStyle = {
@@ -9,13 +11,9 @@ function Portfolio() {
   return (
     <div className="background-container" style={backgroundStyle}>
       <NavbarSecond />
-      <div className='divAbout'>
-        <h1>Portfolio </h1>
-        <h1>ABOUT ME HEY</h1>
-        <h1>ABOUT ME HEY</h1>
-        <h1>ABOUT ME HEY</h1>
-        <h1>ABOUT ME HEY</h1>
-        <h1>ABOUT ME HEY</h1>
+      <div className='divPortfolio'>
+        <h1 className='headPort'>Web Portfolio </h1>
+        <Karusell />
       </div>
 
     </div>

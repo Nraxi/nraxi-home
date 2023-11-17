@@ -1,0 +1,78 @@
+.divContact {
+  top: 1px;
+  left: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.58);
+  border-radius: 15px;
+  margin: 90px 180px;
+  padding: 23px 420px;
+}
+
+.contactHead {
+  text-align: center;
+}
+
+.socialmediaheaderh2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.Social-media {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+.Social-media-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Social-media-item {
+  width: 48%;
+  font-size: 25px;
+  /* Justera bredden beroende på ditt behov */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.Social-media-item:hover p {
+  background-color: purple;
+  border-radius: 5px;
+}
+
+.Social-media-item p {
+  margin-left: 10px;
+}
+
+
+.Social-media-item2 {
+  width: 48%;
+  /* Justera bredden beroende på ditt behov */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Social-media-item2 p {
+  margin-left: 10px;
+}
+
+
+
+
+.Contact-Form {
+  position: relative;
+  margin-top: 60px;
+  left: 300px;
+}
+
+.Contact-information {
+  position: relative;
+  margin-top: 40px;
+  left: 300px;
+}

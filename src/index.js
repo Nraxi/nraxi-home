@@ -11,6 +11,7 @@ import AboutMe from './components/Pages/AboutMe';
 import MyStack from './components/Pages/MyStack';
 import Services from './components/Pages/Services';
 import Portfolio from './components/Pages/Portfolio';
+import ArtGallery from './components/Pages/ArtGallery';
 import Contact from './components/Pages/Contact';
 import reportWebVitals from './reportWebVitals';
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "Portfolio",
     element: <Portfolio />
+  },
+  {
+    path: "ArtGallery",
+    element: <ArtGallery />
   },
   {
     path: "contact",

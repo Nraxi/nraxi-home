@@ -47,8 +47,9 @@ function Navbar() {
               <li><Link to="/nraxi-home" className="nav-link" >Home</Link></li>
               <li><Link to="/about" className="nav-link" >About</Link></li>
               <li><Link to="/mystack" className="nav-link" >My Coding Stack</Link></li>
-              <li><Link to="/Services" className="nav-link" >Services</Link></li>
               <li><Link to="/Portfolio" className="nav-link" >Portfolio</Link></li>
+              <li><Link to="/ArtGallery" className="nav-link" >Art Gallery</Link></li>
+              <li><Link to="/Services" className="nav-link" >Services</Link></li>
               <li><Link to="/Contact" className="nav-link" >Contact</Link></li>
             </ul>
 

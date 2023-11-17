@@ -1,0 +1,64 @@
+.carousel {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 3s ease-in-out, opacity 10s ease-in-out;
+  /* Increase duration for slower slide change */
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 3s ease-in-out, opacity 10s ease-in-out;
+  /* Increase duration for slower slide change */
+}
+
+.carousel-control {
+  cursor: pointer;
+  margin: 2px;
+  background: #ff55e092;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background 0.3s ease;
+  /* Add transition for smoother control color change */
+}
+
+.carousel-control:first-child {
+  left: 92%;
+  /* Adjust the left positioning for the left control */
+}
+
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #dddddd7d;
+  margin: 0 8px;
+  /* Adjust the margin to add space between indicators */
+  cursor: pointer;
+}
+
+.active {
+  background: #ff55e0;
+}

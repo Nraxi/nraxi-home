@@ -1,30 +1,23 @@
 import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
-import "../../css/Aboutme.css"
+import "../../css/ArtGallery.css"
+import ArtKarusell from '../carousel/ArtKarusell';
 
-function AboutMe() {
+
+function ArtGallery() {
   const backgroundStyle = {
     backgroundImage: `url(${process.env.PUBLIC_URL}/gamingbg.png)`
   };
-
-
-
-
-
   return (
     <div className="background-container" style={backgroundStyle}>
       <NavbarSecond />
-      <div className='divAbout'>
-        <h1>About me</h1>
-        <h1>About me</h1>
-        <h1>About me</h1>
-        <h1>About me</h1>
-
-
+      <div className='divArtGallery'>
+        <h1 className='ArtHead'>Art Gallery </h1>
+        <ArtKarusell />
       </div>
 
     </div>
   )
 }
 
-export default AboutMe
+export default ArtGallery
