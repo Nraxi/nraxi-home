@@ -1,64 +1,87 @@
-import React, { useState } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
-
-
+import React, { useState, useEffect } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
-  const [message, setMessage] = useState('');
-  const [recaptchaValue, setRecaptchaValue] = useState(null);
+  const [selectedOption, setSelectedOption] = useState('');
+  const [state, handleSubmit] = useForm("xrgwvyed");
 
-  const handleInputChange = (e) => {
-    setMessage(e.target.value);
+  const handleOptionChange = (e) => {
+    setSelectedOption(e.target.value);
   };
 
-  const handleRecaptchaChange = (value) => {
-    setRecaptchaValue(value);
-  };
+  useEffect(() => {
+    // Dynamically load reCAPTCHA script when the component mounts
+    const script = document.createElement('script');
+    script.src = 'https://www.google.com/recaptcha/api.js';
+    script.async = true;
+    script.defer = true;
+    document.head.appendChild(script);
 
-  const handleMailtoClick = () => {
-    if (!recaptchaValue) {
-      alert("Please complete the reCAPTCHA to proceed.");
-      return;
-    }
+    return () => {
+      // Cleanup to remove the script when the component unmounts
+      document.head.removeChild(script);
+    };
+  }, []);
 
-    const email = process.env.REACT_APP_EMAILEN;
-    const subject = 'Contact Form Submission';
-    const body = `Message: ${message}`;
-
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-    window.location.href = mailtoLink;
-
-    // Optionally, you can reset the form fields and reCAPTCHA value here
-    setMessage('');
-    setRecaptchaValue(null);
-  };
-
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
 
   return (
     <div>
       <h4>Mail Contact Me</h4>
-      <form>
-        <label htmlFor="message">Message:</label><br />
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="email">Your Email Address</label>
+        <br />
+        <input id="email" type="email" name="email" required />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+        <br />
+        <br />
+        <label htmlFor="message">Your Message here</label>
         <textarea
           id="message"
           name="message"
-          rows="4"
-          cols="50"
-          value={message}
-          onChange={handleInputChange}
+          rows="10"
+          cols="40"
           required
-        ></textarea><br />
+        />
+        <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-        {/* Add the reCAPTCHA component */}
-        <ReCAPTCHA
-          sitekey={process.env.REACT_APP_SITEKEY}
-          onChange={handleRecaptchaChange}
-        /><br />
+        {/* Radio buttons for custom validation */}
+        <div>
+          <input
+            type="radio"
+            id="option1"
+            name="options"
+            value="Option 1"
+            checked={selectedOption === 'Option 1'}
+            onChange={handleOptionChange}
+          />
+          <label htmlFor="option1">Option 1</label>
+        </div>
 
-        {/* Button to trigger the mailto link */}
-        <button type="button" onClick={handleMailtoClick}>
-          Send Email
+        <div>
+          <input
+            type="radio"
+            id="option2"
+            name="options"
+            value="Option 2"
+            checked={selectedOption === 'Option 2'}
+            onChange={handleOptionChange}
+          />
+          <label htmlFor="option2">Option 2</label>
+        </div>
+
+        <ValidationError
+          prefix="Options"
+          field="options"
+          errors={state.errors}
+        />
+        {/* reCAPTCHA widget */}
+        <div className="g-recaptcha" data-sitekey="6Lf3mhoeAAAAAADJtupMSieOpPauL__WRT7fTO_c"></div>
+
+        <button type="submit" disabled={state.submitting || !selectedOption}>
+          Submit
         </button>
       </form>
     </div>

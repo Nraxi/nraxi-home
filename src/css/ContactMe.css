@@ -6,7 +6,7 @@
   background-color: rgba(0, 0, 0, 0.58);
   border-radius: 15px;
   margin: 90px 180px;
-  padding: 23px 420px;
+  padding: 27px 420px;
 }
 
 .contactHead {
@@ -20,7 +20,7 @@
 
 .Social-media {
   position: absolute;
-  top: 150px;
+  top: 310px;
   left: 30px;
 }
 
@@ -68,11 +68,18 @@
 .Contact-Form {
   position: relative;
   margin-top: 60px;
-  left: 300px;
+  left: 350px;
+  padding-bottom: 80px;
 }
 
 .Contact-information {
-  position: relative;
-  margin-top: 40px;
-  left: 300px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.Contact-information-head {
+  font-size: 24px;
+  text-align: center;
+  margin-left: 80px;
 }

@@ -12,6 +12,34 @@ function Contact() {
       <NavbarSecond />
       <div className='divContact'>
         <h1 className='contactHead'>Contact</h1>
+        <div className='Contact-Form'>
+          <ContactForm />
+        </div>
+        <div className='Contact-information'>
+          <h3 className='Contact-information-head'>Contact information:</h3>
+          <div className='Social-media-item2'>
+            <p>
+              <i className="bi bi-person"></i>
+            </p>
+            <p>Name:</p>
+            <p>Olle Tengnér</p>
+          </div>
+          <div className='Social-media-item2'>
+            <p>
+              <i className="bi bi-house"></i>
+            </p>
+            <p>From:</p>
+            <p>Stockholm,</p>
+            <p>Sweden</p>
+          </div>
+          <div className='Social-media-item2'>
+            <p>
+              <i className="bi bi-phone"></i>
+            </p>
+            <p>Phone:</p>
+            <p>+46760169497</p>
+          </div>
+        </div>
         <div>
           <div className='Social-media'>
             <h2 className='socialmediaheaderh2'>Find me on:</h2>
@@ -72,34 +100,8 @@ function Contact() {
             <h4>Start Following me on my social platforms</h4>
             <h4> or send me a pm there</h4>
           </div>
-          <div className='Contact-information'>
-            <h3>Contact information:</h3>
-            <div className='Social-media-item2'>
-              <p>
-                <i className="bi bi-person"></i>
-              </p>
-              <p>Name:</p>
-              <p>Olle Tengnér</p>
-            </div>
-            <div className='Social-media-item2'>
-              <p>
-                <i className="bi bi-house"></i>
-              </p>
-              <p>From:</p>
-              <p>Stockholm,</p>
-              <p>Sweden</p>
-            </div>
-            <div className='Social-media-item2'>
-              <p>
-                <i className="bi bi-phone"></i>
-              </p>
-              <p>Phone:</p>
-              <p>+46760169497</p>
-            </div>
-          </div>
-          <div className='Contact-Form'>
-            <ContactForm />
-          </div>
+
+
         </div>
       </div>
 
