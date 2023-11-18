@@ -22,7 +22,8 @@ function Contact() {
               <i className="bi bi-person"></i>
             </p>
             <p>Name:</p>
-            <p>Olle Tengnér</p>
+            <p>Olle</p>
+            <p>Tengnér</p>
           </div>
           <div className='Social-media-item2'>
             <p>

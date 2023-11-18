@@ -24,16 +24,19 @@ const ContactForm = () => {
   }, []);
 
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <div><h4>Thank You!</h4>
+      <p>Your message has been successfully submitted. We appreciate you reaching out.</p>
+      <p>We will review your message and get back to you as soon as possible.</p>
+    </div>;
   }
 
   return (
     <div>
       <h4>Mail Contact Me</h4>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Your Email Address</label>
+        <label htmlFor="email" >Your Email Address</label>
         <br />
-        <input id="email" type="email" name="email" required />
+        <input id="email" type="email" name="email" placeholder='youre email here' required />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <br />
         <br />
@@ -43,6 +46,8 @@ const ContactForm = () => {
           name="message"
           rows="10"
           cols="40"
+          placeholder="Please fill in your Full Name, your statement and some contact info, example phone number.
+          English or Swedish only."
           required
         />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
