@@ -6,7 +6,7 @@
   background-color: rgba(0, 0, 0, 0.58);
   border-radius: 15px;
   margin: 90px 180px;
-  padding: 27px 420px;
+  padding: 30px 498px;
 }
 
 .contactHead {
@@ -80,4 +80,16 @@
   font-size: 24px;
   text-align: center;
   margin-left: 80px;
+}
+
+.edit-msg {
+  padding-bottom: 345px;
+}
+
+.accept-terms {
+  padding: 20%;
+}
+
+.heyas {
+  padding-bottom: 68px;
 }

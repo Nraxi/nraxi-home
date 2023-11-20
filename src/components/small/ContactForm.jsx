@@ -4,6 +4,8 @@ import { useForm, ValidationError } from '@formspree/react';
 const ContactForm = () => {
   const [selectedOption, setSelectedOption] = useState('');
   const [state, handleSubmit] = useForm("xrgwvyed");
+  // const [tuut, setTuut] = useState(true);
+
 
   const handleOptionChange = (e) => {
     setSelectedOption(e.target.value);
@@ -23,15 +25,31 @@ const ContactForm = () => {
     };
   }, []);
 
+
+  // Set tuut for css editing on div edit msg.
+  //Handle button / tuut needs to be active
+
+  // const handleButtonClick = () => {
+  //   setTuut(false);
+  // };
+
+  // if (state.succeeded || tuut) {
   if (state.succeeded) {
-    return <div><h4>Thank You!</h4>
+    return <div className='edit-msg'><h4>Thank You!</h4>
       <p>Your message has been successfully submitted. We appreciate you reaching out.</p>
       <p>We will review your message and get back to you as soon as possible.</p>
+      {/* <button onClick={handleButtonClick}>CLICK HERE</button> */}
     </div>;
   }
 
+
+
+
+
+
   return (
     <div>
+
       <h4>Mail Contact Me</h4>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email" >Your Email Address</label>
@@ -44,6 +62,7 @@ const ContactForm = () => {
         <br />
         <br />
         <label htmlFor="message">Your Message here</label>
+        <br />
         <textarea
           id="message"
           name="message"
@@ -58,8 +77,10 @@ const ContactForm = () => {
           }}
         />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
+        <br />
 
         {/* Radio buttons for custom validation */}
+
         <div>
           <input
             type="radio"
@@ -91,7 +112,18 @@ const ContactForm = () => {
           errors={state.errors}
         />
         {/* reCAPTCHA widget */}
-        <p>By accepting these terms, <br />you agree that i can contact you.</p>
+
+        <div className='msg-terms'>
+          {selectedOption === 'Option 2' ? (
+            <div className='heyas'>
+            </div>
+
+          ) : <p>By accepting these terms, <br />you agree that I can contact you.</p>}
+
+        </div>
+
+
+
         <div className="g-recaptcha" data-sitekey="6Lf3mhoeAAAAAADJtupMSieOpPauL__WRT7fTO_c"></div>
 
         <br />
@@ -100,7 +132,9 @@ const ContactForm = () => {
           Submit
         </button>
       </form>
+
     </div>
+
   );
 };
 
