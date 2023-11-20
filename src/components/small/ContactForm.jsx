@@ -36,7 +36,10 @@ const ContactForm = () => {
       <form onSubmit={handleSubmit}>
         <label htmlFor="email" >Your Email Address</label>
         <br />
-        <input id="email" type="email" name="email" placeholder='youre email here' required />
+        <input id="email" type="email" name="email" placeholder='youre email here' required onInput={(e) => {
+          const sanitizedValue = e.target.value.replace(/<\s*script\s*>|<\s*\/\s*script\s*>/gi, '');
+          e.target.value = sanitizedValue;
+        }} />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <br />
         <br />
@@ -49,6 +52,10 @@ const ContactForm = () => {
           placeholder="Please fill in your Full Name, your statement and some contact info, example phone number.
           English or Swedish only."
           required
+          onInput={(e) => {
+            const sanitizedValue = e.target.value.replace(/<\s*script\s*>|<\s*\/\s*script\s*>/gi, '');
+            e.target.value = sanitizedValue;
+          }}
         />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
 
@@ -62,7 +69,7 @@ const ContactForm = () => {
             checked={selectedOption === 'Option 1'}
             onChange={handleOptionChange}
           />
-          <label htmlFor="option1">Option 1</label>
+          <label htmlFor="option1">I don't accept</label>
         </div>
 
         <div>
@@ -74,7 +81,7 @@ const ContactForm = () => {
             checked={selectedOption === 'Option 2'}
             onChange={handleOptionChange}
           />
-          <label htmlFor="option2">Option 2</label>
+          <label htmlFor="option2">I'm accepting these terms</label>
         </div>
 
         <ValidationError
@@ -83,9 +90,12 @@ const ContactForm = () => {
           errors={state.errors}
         />
         {/* reCAPTCHA widget */}
+        <p>By accepting these terms, <br />you agree that i can contact you.</p>
         <div className="g-recaptcha" data-sitekey="6Lf3mhoeAAAAAADJtupMSieOpPauL__WRT7fTO_c"></div>
 
-        <button type="submit" disabled={state.submitting || !selectedOption}>
+        <br />
+
+        <button type="submit" disabled={state.submitting || (selectedOption !== 'Option 2') || state.valid}>
           Submit
         </button>
       </form>
