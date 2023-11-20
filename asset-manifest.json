@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/nraxi-home/static/css/main.ecfdc9bb.css",
-    "main.js": "/nraxi-home/static/js/main.1705dcc5.js",
+    "main.js": "/nraxi-home/static/js/main.27c1aba6.js",
     "static/js/787.ff7413ca.chunk.js": "/nraxi-home/static/js/787.ff7413ca.chunk.js",
     "static/media/me2.png": "/nraxi-home/static/media/me2.7e50a0eda27f17ef2b1f.png",
     "static/media/gamingbg.png": "/nraxi-home/static/media/gamingbg.8238bf5166e6fdf5c03a.png",
     "static/media/vattenpaus.png": "/nraxi-home/static/media/vattenpaus.e329c7246ecd3d4fda9d.png",
     "index.html": "/nraxi-home/index.html",
     "main.ecfdc9bb.css.map": "/nraxi-home/static/css/main.ecfdc9bb.css.map",
-    "main.1705dcc5.js.map": "/nraxi-home/static/js/main.1705dcc5.js.map",
+    "main.27c1aba6.js.map": "/nraxi-home/static/js/main.27c1aba6.js.map",
     "787.ff7413ca.chunk.js.map": "/nraxi-home/static/js/787.ff7413ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecfdc9bb.css",
-    "static/js/main.1705dcc5.js"
+    "static/js/main.27c1aba6.js"
   ]
 }
