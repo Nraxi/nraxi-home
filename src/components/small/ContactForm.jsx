@@ -69,8 +69,9 @@ const ContactForm = () => {
             checked={selectedOption === 'Option 1'}
             onChange={handleOptionChange}
           />
-          <label htmlFor="option1">I don't accept</label>
+          <label htmlFor="option1">I don't accept these terms</label>
         </div>
+
 
         <div>
           <input
@@ -95,7 +96,7 @@ const ContactForm = () => {
 
         <br />
 
-        <button type="submit" disabled={state.submitting || (selectedOption !== 'Option 2') || state.valid}>
+        <button type="submit" disabled={state.submitting || (selectedOption !== 'Option 2') || !state.valid}>
           Submit
         </button>
       </form>
