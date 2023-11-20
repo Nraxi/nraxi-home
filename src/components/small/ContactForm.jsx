@@ -96,7 +96,7 @@ const ContactForm = () => {
 
         <br />
 
-        <button type="submit" disabled={state.submitting || (selectedOption !== 'Option 2') || state.valid}>
+        <button type="submit" disabled={state.submitting || (selectedOption !== 'Option 2')}>
           Submit
         </button>
       </form>
