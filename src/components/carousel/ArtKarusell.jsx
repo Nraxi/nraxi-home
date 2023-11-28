@@ -8,6 +8,7 @@ function ArtKarusell() {
     require('../images/ArtGallery/vattenpaus.png'),
     require('../images/ArtGallery/gamingbg.png'),
     require('../images/ArtGallery/me2.png'),
+    require('../images/WebGallery/underconstruct.png'),
   ], []);
 
   const nextSlide = useCallback(() => {

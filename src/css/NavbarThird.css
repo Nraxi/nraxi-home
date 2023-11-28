@@ -20,31 +20,31 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.naven {
+.naven3 {
   margin-top: -50px;
 }
 
 
-.header2 {
+.header3 {
   display: flex;
   align-items: center;
 }
 
-.header2 h2 span {
+.header3 h2 span {
   color: #ff55e0;
   border-bottom: 2px solid #ff831e;
 }
 
 
-.social-links2 {
+.social-links3 {
   display: flex;
   margin-left: 30%;
 }
 
-.social-links2 a {
+.social-links3 a {
   padding: 5px;
   display: flex;
-  margin-top: 700px;
+  margin-top: 830px;
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
   border-radius: 35%;
@@ -53,7 +53,7 @@ h6 {
 
 }
 
-.social-links2 a:hover {
+.social-links3 a:hover {
   background: #d26218;
 }
 
@@ -62,22 +62,22 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 
-.navbar2 {
+.navbar3 {
   margin-top: 50px;
 }
 
-.navbar2 ul {
+.navbar3 ul {
   display: flex;
   list-style: none;
   align-items: center;
 }
 
-.navbar2 li {
+.navbar3 li {
   position: relative;
 }
 
-.navbar2 a,
-.navbar2 a:focus {
+.navbar3 a,
+.navbar3 a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,7 +93,7 @@ h6 {
 
 
 
-.navbar2 a:before {
+.navbar3 a:before {
   content: "";
   position: absolute;
   margin-left: 30px;
@@ -105,16 +105,16 @@ h6 {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.navbar2 a:hover:before,
-.navbar2 li:hover>a:before,
-.navbar2 .active:before {
+.navbar3 a:hover:before,
+.navbar3 li:hover>a:before,
+.navbar3 .active:before {
   visibility: visible;
   width: 25px;
 }
 
-.navbar2 a:hover,
-.navbar2 .active,
-.navbar2 .active:focus,
-.navbar2 li:hover>a {
+.navbar3 a:hover,
+.navbar3 .active,
+.navbar3 .active:focus,
+.navbar3 li:hover>a {
   color: #ff55e0;
 }

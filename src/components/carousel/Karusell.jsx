@@ -5,8 +5,8 @@ function Karusell() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = React.useMemo(() => [
-    require('../images/ArtGallery/me2.png'),
-    require('../images/ArtGallery/me2.png'),
+    require('../images/WebGallery/underconstruct.png'),
+    require('../images/WebGallery/underconstruct.png'),
 
   ], []);
 

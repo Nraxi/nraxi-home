@@ -1,8 +1,8 @@
-.divAbouts {
+.divServices {
   position: absolute;
   top: 1px;
   left: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.58);
   border-radius: 15px;
   margin: 90px 180px;
@@ -14,23 +14,23 @@
   /* Include padding and border in the element's total width and height */
 }
 
-.divAbouts h1 {
+.divServices h1 {
   text-align: center;
 }
 
-.AboutsOffers h3 {
+.ServicesOffers h3 {
   text-align: center;
 }
 
-.AboutGrid {
+.ServiceGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.AboutsGraph,
-.AboutsAi,
-.AboutsWebDesign,
-.AboutsWebDev {
+.ServicesGraph,
+.ServicesAi,
+.ServicesWebDesign,
+.ServicesWebDev {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   margin: 2px 10px;
@@ -39,25 +39,25 @@
   margin-bottom: 20px;
 }
 
-.AboutsGraph h4,
-.AboutsAi h4,
-.AboutsWebDesign h4,
-.AboutsWebDev h4 {
+.ServicesGraph h4,
+.ServicesAi h4,
+.ServicesWebDesign h4,
+.ServicesWebDev h4 {
   color: #fff;
 }
 
-.AboutsGraph ul,
-.AboutsAi ul,
-.AboutsWebDesign ul,
-.AboutsWebDev ul {
+.ServicesGraph ul,
+.ServicesAi ul,
+.ServicesWebDesign ul,
+.ServicesWebDev ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.AboutsGraph li,
-.AboutsAi li,
-.AboutsWebDesign li,
-.AboutsWebDev li {
+.ServicesGraph li,
+.ServicesAi li,
+.ServicesWebDesign li,
+.ServicesWebDev li {
   margin-bottom: 5px;
 }
