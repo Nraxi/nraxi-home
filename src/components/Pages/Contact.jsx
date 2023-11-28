@@ -62,11 +62,11 @@ function Contact() {
 
                 <div className='Social-media-item'>
                   <p>
-                    <a href="https://linkedin.com/">
+                    <a href="https://linkedin.com/in/olle-tengnér-331835175/">
                       <i className="bi bi-linkedin"></i>
                     </a>
                   </p>
-                  <a href="https://linkedin.com/">
+                  <a href="https://linkedin.com/in/olle-tengnér-331835175/">
                     <p>Linkedin
                     </p>
                   </a>

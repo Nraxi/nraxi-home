@@ -59,9 +59,9 @@ function Navbar() {
         </div>
       </header>
       <div className="social-links">
-        <a href="https://www.facebook.com/YourPageOrProfile" className="facebook"><i className="bi bi-facebook"></i></a>
+        {/* <a href="https://www.facebook.com/YourPageOrProfile" className="facebook"><i className="bi bi-facebook"></i></a> */}
         <a href="https://www.instagram.com/3k9swe/" className="instagram"><i className="bi bi-instagram"></i></a>
-        <a href="https://linkedin.com/" className="linkedin"><i className="bi bi-linkedin"></i></a>
+        <a href="https://linkedin.com/in/olle-tengnér-331835175/" className="linkedin"><i className="bi bi-linkedin"></i></a>
         <a href="https://github.com/nraxi" className="Github"><i className="bi bi-github"></i></a>
         <a href="https://twitch.com/nraxi" className="Twitch"><i className="bi bi-twitch"></i></a>
       </div>
