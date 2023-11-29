@@ -6,7 +6,7 @@ import Karusell from '../carousel/Karusell';
 
 function Portfolio() {
   const backgroundStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/gamingbg.png)`
+    backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
     <div className="background-container" style={backgroundStyle}>

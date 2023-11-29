@@ -50,6 +50,7 @@ function Navbar() {
               <li><Link to="/Portfolio" className="nav-link" >Portfolio</Link></li>
               <li><Link to="/ArtGallery" className="nav-link" >Art Gallery</Link></li>
               <li><Link to="/Services" className="nav-link" >Services</Link></li>
+              <li><Link to="/Gaming" className="nav-link" >Live Stream</Link></li>
               <li><Link to="/Contact" className="nav-link" >Contact</Link></li>
             </ul>
 

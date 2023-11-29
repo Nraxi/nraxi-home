@@ -4,7 +4,7 @@ import "../../css/Aboutme.css"
 
 function AboutMe() {
   const backgroundStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/gamingbg.png)`
+    backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
 
 

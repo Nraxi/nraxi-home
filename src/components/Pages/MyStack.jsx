@@ -4,10 +4,10 @@ import "../../css/MyStack.css"
 
 function MyStack() {
   const backgroundStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/gamingbg.png)`
+    backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container3" style={backgroundStyle}>
+    <div className="background-container2" style={backgroundStyle}>
       <NavbarThird />
       <div className='divMyStacks'>
         <h1>My Stack</h1>

@@ -5,7 +5,7 @@ import './css/App.css';
 function App() {
 
   const backgroundStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/gamingbg.png)`
+    backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
 
   return (

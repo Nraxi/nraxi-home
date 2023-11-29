@@ -16,6 +16,7 @@ function NavbarSecond() {
               <li><Link to="/Portfolio" className="nav-link2" >Web Portfolio</Link></li>
               <li><Link to="/ArtGallery" className="nav-link" >Art Gallery</Link></li>
               <li><Link to="/Services" className="nav-link2" >Services</Link></li>
+              <li><Link to="/Gaming" className="nav-link" >Live Stream</Link></li>
               <li><Link to="/Contact" className="nav-link2" >Contact</Link></li>
             </ul>
           </nav>

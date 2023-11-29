@@ -1,0 +1,76 @@
+.divGamings {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  color: #f0ebeb;
+
+  background-color: rgba(0, 0, 0, 0.58);
+  border-radius: 15px;
+  margin: 90px 180px;
+  padding: 1px;
+  /* Adjust padding */
+  width: 79.7%;
+  /* Ensure the container spans the full width */
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+}
+
+.divGamings h1 {
+  text-align: center;
+}
+
+.GamingsOffers h3 {
+  text-align: center;
+}
+
+.GamingGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.GamingsNew {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  margin: 2px 10px;
+  /* Adjust the margin */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.GamingsAi h4 {
+  color: #fff;
+}
+
+
+.GamingsNew {
+  grid-column: span 3;
+}
+
+
+.GamingsNew h4 {
+  color: #fff;
+  text-align: center;
+}
+
+.GamingsNew ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Create a 3x3 grid */
+  gap: 10px;
+  /* Adjust the gap between grid items */
+}
+
+.GamingsNew li {
+  list-style: none;
+  border-radius: 10px;
+  color: #fff;
+
+}
+
+.GamingVid {
+  display: flex;
+  justify-content: center;
+}

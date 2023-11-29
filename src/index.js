@@ -14,6 +14,7 @@ import Portfolio from './components/Pages/Portfolio';
 import ArtGallery from './components/Pages/ArtGallery';
 import Contact from './components/Pages/Contact';
 import reportWebVitals from './reportWebVitals';
+import Gaming from './components/Pages/Gaming';
 
 
 const router = createBrowserRouter([
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
   {
     path: "ArtGallery",
     element: <ArtGallery />
+  },
+  {
+    path: "Gaming",
+    element: <Gaming />
   },
   {
     path: "contact",

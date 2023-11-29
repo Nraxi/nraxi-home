@@ -1,8 +1,19 @@
 .background-container {
   background-attachment: fixed;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 102vh;
+  height: 100vh;
+
+}
+
+.background-container2 {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+
 }
 
 .background-container3 {
