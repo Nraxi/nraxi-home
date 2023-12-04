@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../../css/NavbarThird.css"
 
 
 function NavbarThird() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div>
       <header id="header3">
+        <div className="menu-toggle" onClick={toggleMenu}>
+          <p>Meny </p> {isMenuOpen ? <i className="bi bi-arrow-bar-up"></i> : <i className="bi bi-list"></i>}
+        </div>
         <div className="naven3">
-          <nav id="navbar3" className="navbar3">
+          <nav id="navbar3" className={`navbar3 ${isMenuOpen ? 'open' : ''}`}>
             <ul>
               <li><Link to="/nraxi-home" className="nav-link2" >Home</Link></li>
               <li><Link to="/about" className="nav-link2" >About</Link></li>

@@ -7,7 +7,6 @@ function Karusell() {
   const images = React.useMemo(() => [
     require('../images/WebGallery/underconstruct.png'),
     require('../images/WebGallery/underconstruct.png'),
-
   ], []);
 
   const nextSlide = useCallback(() => {
@@ -29,20 +28,18 @@ function Karusell() {
   }, [nextSlide]);
 
   return (
-    <div className="carousel-container">
-      <div className="carousel">
-        <span className="bi bi-caret-right-fill carousel-control" onClick={nextSlide}></span>
-        <span className="bi bi-caret-left-fill carousel-control" onClick={prevSlide}></span>
-        <img className="carousel-image" src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
-        <div className="carousel-indicators">
-          {images.map((_, index) => (
-            <span
-              key={index}
-              className={`indicator ${index === currentIndex ? 'active' : ''}`}
-              onClick={() => setCurrentIndex(index)}
-            ></span>
-          ))}
-        </div>
+    <div className="carousel1">
+      <span className="bi bi-caret-right-fill carousel-control1" onClick={nextSlide}></span>
+      <span className="bi bi-caret-left-fill carousel-control1" onClick={prevSlide}></span>
+      <img className="carousel-image1" src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+      <div className="carousel-indicators1">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`indicator1 ${index === currentIndex ? 'active1' : ''}`}
+            onClick={() => setCurrentIndex(index)}
+          ></span>
+        ))}
       </div>
     </div>
   );

@@ -3,12 +3,14 @@ import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/ContactMe.css"
 import ContactForm from '../small/ContactForm';
 
+
+
 function Contact() {
   const backgroundStyle = {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container" style={backgroundStyle}>
+    <div className="background-container-special2" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divContact'>
         <h1 className='contactHead'>Contact</h1>
@@ -105,7 +107,6 @@ function Contact() {
 
         </div>
       </div>
-
     </div >
   )
 }

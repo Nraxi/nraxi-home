@@ -46,3 +46,14 @@
 .namnetefter {
   color: #ff831e;
 }
+
+@media (max-width: 992px) {
+  .profilepic {
+    margin-left: 120px;
+    padding-right: 20px;
+  }
+
+  .namnet {
+    margin-left: 70px;
+  }
+}

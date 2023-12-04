@@ -1,14 +1,16 @@
 import React from 'react'
-import NavbarThird from '../Nav/NavbarThird';
+// import NavbarThird from '../Nav/NavbarThird';
 import "../../css/MyStack.css"
+import NavbarSecond from '../Nav/NavbarSecond';
+import SocialLinks2 from '../SocialLinks/SocialLinks2'
 
 function MyStack() {
   const backgroundStyle = {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container2" style={backgroundStyle}>
-      <NavbarThird />
+    <div className="background-container-special" style={backgroundStyle}>
+      <NavbarSecond />
       <div className='divMyStacks'>
         <h1>My Stack</h1>
         <div className='MyStacksOffers'>
@@ -76,9 +78,9 @@ function MyStack() {
             <br />
             <li>Onging learning/project on spare time: a backend in c# / dotnet </li>
           </div>
-
         </div>
       </div>
+      <SocialLinks2 className="Social-link2" />
     </div>
   )
 }

@@ -1,17 +1,17 @@
 .divMyStacks {
   position: absolute;
-  top: 1px;
+  top: 50px;
   left: 10px;
   color: #fff;
-
   background-color: rgba(0, 0, 0, 0.58);
   border-radius: 15px;
-  margin: 90px 180px;
+  margin: 20px 180px;
   padding: 1px;
   /* Adjust padding */
   width: 79.7%;
   /* Ensure the container spans the full width */
   box-sizing: border-box;
+
   /* Include padding and border in the element's total width and height */
 }
 
@@ -90,4 +90,16 @@
   border-radius: 10px;
   color: #fff;
   text-align: start;
+}
+
+
+
+
+@media (max-width: 992px) {
+  .divMyStacks {
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    margin-left: 50px;
+  }
 }

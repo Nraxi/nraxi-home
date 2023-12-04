@@ -118,3 +118,99 @@ h6 {
 .navbar3 li:hover>a {
   color: #ff55e0;
 }
+
+/* Hamburgermeny */
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+}
+
+.navbar.open {
+  max-height: 300px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .navbar {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    background-color: #d26218;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar li+li {
+    margin-left: 0;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    margin-top: 0;
+  }
+
+}
+
+/* Hamburgermeny */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.navbar3.open {
+  max-height: 600px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+@media (max-width: 992px) {
+
+
+  .menu-toggle {
+    display: block;
+    position: relative;
+    padding: 20px;
+    margin-left: 40px;
+  }
+
+  .navbar3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    background-color: #d26218;
+    border-radius: 15px;
+    margin-top: 0px;
+    width: 500px;
+    margin: auto;
+  }
+
+  .navbar3 ul {
+    font-size: 2px;
+    flex-direction: column;
+
+
+    /* Hela skärmens höjd */
+  }
+
+  .navbar3 a,
+  .navbar3 a:focus {
+    display: block;
+    width: 200px;
+    font-size: medium;
+    padding: 10px;
+    /* Gör varje länk till ett blockelement */
+  }
+}

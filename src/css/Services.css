@@ -61,3 +61,12 @@
 .ServicesWebDev li {
   margin-bottom: 5px;
 }
+
+@media (max-width: 992px) {
+  .divServices {
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    margin-left: 50px;
+  }
+}

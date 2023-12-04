@@ -9,7 +9,7 @@ function App() {
   };
 
   return (
-    <div className="background-container" style={backgroundStyle}>
+    <div className="background-container-start" style={backgroundStyle}>
       <Home />
     </div>
   );

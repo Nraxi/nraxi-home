@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../../css/Navbartva.css"
 
 
 function NavbarSecond() {
+
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div>
       <header id="header2">
-        <div className="naven">
-          <nav id="navbar2" className="navbar2">
+        <div className="navens">
+          <div className="menu-toggle" onClick={toggleMenu}>
+            Meny {isMenuOpen ? <i className="bi bi-arrow-bar-up"></i> : <i className="bi bi-list"></i>}
+          </div>
+          <nav id="navbar2" className={`navbar2 ${isMenuOpen ? 'open' : ''}`}>
             <ul>
               <li><Link to="/nraxi-home" className="nav-link2" >Home</Link></li>
               <li><Link to="/about" className="nav-link2" >About</Link></li>
@@ -22,14 +32,6 @@ function NavbarSecond() {
           </nav>
         </div>
       </header>
-      <div className="social-links2">
-        {/* <a href="https://www.facebook.com/YourPageOrProfile" className="facebook2"><i className="bi bi-facebook"></i></a> */}
-        <a href="https://www.instagram.com/3k9swe/" className="instagram2"><i className="bi bi-instagram"></i></a>
-        <a href="https://linkedin.com/in/olle-tengnér-331835175/" className="linkedin2"><i className="bi bi-linkedin"></i></a>
-        <a href="https://github.com/nraxi" className="Github2"><i className="bi bi-github"></i></a>
-        <a href="https://twitch.com/nraxi" className="Twitch2"><i className="bi bi-twitch"></i></a>
-      </div>
-
     </div >
   )
 }

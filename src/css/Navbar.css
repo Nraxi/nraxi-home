@@ -154,3 +154,60 @@ h6 {
 .navbar li:hover>a {
   color: #ff55e0;
 }
+
+/* Hamburgermeny */
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+
+}
+
+.navbar.open {
+  max-height: 300px;
+  border-radius: 20px;
+  margin-left: auto;
+  transition: max-height 0.5s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+
+
+  }
+
+  .navbar {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    background-color: #d26218;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar li+li {
+    margin-left: 0;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    margin-top: 0;
+  }
+
+  .social-links {
+    padding-top: 110px;
+    padding-left: 20px;
+    margin-left: 50px;
+  }
+
+
+
+
+}

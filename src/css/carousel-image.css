@@ -1,4 +1,4 @@
-.carousel {
+.carousel1 {
   position: relative;
   width: 500px;
   height: 500px;
@@ -10,7 +10,7 @@
   /* Increase duration for slower slide change */
 }
 
-.carousel-image {
+.carousel-image1 {
   width: 100%;
   height: auto;
   display: block;
@@ -18,7 +18,7 @@
   /* Increase duration for slower slide change */
 }
 
-.carousel-control {
+.carousel-control1 {
   cursor: pointer;
   margin: 2px;
   background: #ff55e092;
@@ -32,13 +32,13 @@
   /* Add transition for smoother control color change */
 }
 
-.carousel-control:first-child {
+.carousel-control1:first-child {
   left: 92%;
   /* Adjust the left positioning for the left control */
 }
 
 
-.carousel-indicators {
+.carousel-indicators1 {
   position: absolute;
   bottom: 10px;
   /* Adjust the distance from the bottom */
@@ -49,7 +49,7 @@
   padding: 0;
 }
 
-.indicator {
+.indicator1 {
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -59,7 +59,15 @@
   cursor: pointer;
 }
 
-.active {
+.active1 {
   background: #ff55e0;
 
 }
+
+/* NEXT MEDIA DOWN */
+/* @media (max-width: 992px) {
+  .carousel1 {
+    width: 300px;
+    height: 200px;
+  } */
+/* } */

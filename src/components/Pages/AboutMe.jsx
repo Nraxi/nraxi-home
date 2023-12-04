@@ -1,18 +1,15 @@
 import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/Aboutme.css"
+import SocialLinks from '../SocialLinks/SocialLinks1'
 
 function AboutMe() {
   const backgroundStyle = {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
 
-
-
-
-
   return (
-    <div className="background-container" style={backgroundStyle}>
+    <div className="background-container-General" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divAbouts'>
         <h1>About me</h1>
@@ -65,6 +62,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
+      <SocialLinks />
     </div>
   )
 }
