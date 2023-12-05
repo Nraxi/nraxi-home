@@ -9,7 +9,7 @@ function Portfolio() {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container-special2" style={backgroundStyle}>
+    <div className="background-container-Portfolio" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divPortfolio'>
         <h1 className='headPort'>Web Portfolio </h1>

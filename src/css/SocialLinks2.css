@@ -32,3 +32,17 @@
 
 
 }
+
+@media (max-width: 768px) {
+  .social-links2 {
+    margin: 10px;
+  }
+
+  .social-links2 a {
+    margin-top: 20px;
+    margin-left: 80px;
+
+  }
+
+
+}

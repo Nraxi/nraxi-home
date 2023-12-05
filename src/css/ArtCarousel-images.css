@@ -62,3 +62,34 @@
 .active {
   background: #84dc00;
 }
+
+@media (max-width: 565px) {
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 3s ease-in-out, opacity 10s ease-in-out;
+    /* Increase duration for slower slide change */
+  }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .carousel-control {
+    cursor: pointer;
+    margin: 1%;
+    background: #ff55e092;
+    padding: 1.1%;
+    border-radius: 10px;
+    top: 50%;
+
+  }
+
+  .carousel-control:first-child {
+    left: 90%;
+  }
+}

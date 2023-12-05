@@ -214,3 +214,42 @@ h6 {
     /* Gör varje länk till ett blockelement */
   }
 }
+
+@media (max-width: 768px) {
+
+
+  .menu-toggle {
+    display: block;
+    position: relative;
+    padding: 12px;
+    margin-left: 40px;
+  }
+
+  .navbar3 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    background-color: #d26218;
+    border-radius: 15px;
+    margin-top: 0px;
+    width: auto;
+    margin: auto;
+  }
+
+  .navbar3 ul {
+    font-size: 2px;
+    flex-direction: column;
+
+
+    /* Hela skärmens höjd */
+  }
+
+  .navbar3 a,
+  .navbar3 a:focus {
+    display: block;
+    width: 200px;
+    font-size: medium;
+    padding: 10px;
+    /* Gör varje länk till ett blockelement */
+  }
+}

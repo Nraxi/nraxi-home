@@ -1,16 +1,10 @@
 .divMyStacks {
-  position: absolute;
-  top: 50px;
-  left: 10px;
+  position: relative;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.58);
   border-radius: 15px;
-  margin: 20px 180px;
-  padding: 1px;
-  /* Adjust padding */
-  width: 79.7%;
-  /* Ensure the container spans the full width */
-  box-sizing: border-box;
+  margin: 1px 80px;
+  padding: 15px;
 
   /* Include padding and border in the element's total width and height */
 }
@@ -92,7 +86,14 @@
   text-align: start;
 }
 
-
+.background-container-MyStack {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  /* Använd min-height för att säkerställa att det täcker hela skärmen */
+}
 
 
 @media (max-width: 992px) {
@@ -101,5 +102,68 @@
     top: 20px;
     margin: 20px;
     margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divMyStacks {
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 565px) {
+  .divMyStacks {
+    position: relative;
+    top: 20px;
+    margin: 20px;
+  }
+
+  .MyStacksNew {
+    grid-column: span 2;
+  }
+
+  .MyStackGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 30px;
+  }
+
+  .MyStacksNew ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Create a 3x3 grid */
+    gap: 10px;
+    margin-left: -30px;
+    /* Adjust the gap between grid items */
+  }
+}
+
+@media (max-width: 378px) {
+  .divMyStacks {
+    position: relative;
+    top: 20px;
+  }
+
+  .MyStacksNew {
+    grid-column: span 1;
+  }
+
+  .MyStackGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 30px;
+  }
+
+  .MyStacksNew ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Create a 3x3 grid */
+    gap: 10px;
+    /* Adjust the gap between grid items */
   }
 }

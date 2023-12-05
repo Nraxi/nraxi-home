@@ -1,12 +1,18 @@
+/* Reset box-sizing for all elements */
+* {
+  box-sizing: border-box;
+}
+
 .profilepic {
   position: absolute;
   margin-top: 350px;
   margin-left: 50px;
   height: 280px;
   width: 280px;
-  border-radius: 20px;
+  border-radius: 40px;
+  object-fit: cover;
+  /* Ensure the image covers the entire container */
 }
-
 
 .namnet {
   position: absolute;
@@ -14,22 +20,16 @@
   left: 48px;
   display: inline-block;
   padding: 10px 20px;
-  /* margin-left: 10px; */
   font-size: 26px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   border-radius: 8px;
-  /* You can adjust the border-radius value to your preference */
   background-color: rgba(137, 137, 137, 0.551);
-  /* Set your desired background color */
   border: 2px;
-  /* Set your desired border color */
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
-
-
 
 .namnetfor {
   color: #f3f4ec;
@@ -47,13 +47,46 @@
   color: #ff831e;
 }
 
-@media (max-width: 992px) {
+/* Media Queries */
+@media (max-width: 995px) {
   .profilepic {
     margin-left: 120px;
     padding-right: 20px;
+    box-sizing: border-box;
   }
 
   .namnet {
     margin-left: 70px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 552px) {
+  .profilepic {
+    margin-top: 330px;
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+
+  .namnet {
+    margin-left: 0px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 375px) {
+  .profilepic {
+    margin-top: 420px;
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+
+  .namnet {
+    margin-left: 0px;
+    box-sizing: border-box;
   }
 }

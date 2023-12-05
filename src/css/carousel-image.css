@@ -64,6 +64,38 @@
 
 }
 
+@media (max-width: 565px) {
+  .carousel-image1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 3s ease-in-out, opacity 10s ease-in-out;
+    /* Increase duration for slower slide change */
+  }
+
+  .carousel1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .carousel-control1 {
+    cursor: pointer;
+    margin: 1%;
+    background: #ff55e092;
+    padding: 1.1%;
+    border-radius: 10px;
+    top: 50%;
+
+  }
+
+  .carousel-control1:first-child {
+    left: 90%;
+  }
+}
+
+
 /* NEXT MEDIA DOWN */
 /* @media (max-width: 992px) {
   .carousel1 {

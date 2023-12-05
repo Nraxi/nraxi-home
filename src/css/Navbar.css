@@ -35,9 +35,7 @@ h6 {
   font-size: 39px;
   font-weight: 900;
   color: #ff831e;
-
 }
-
 
 .fransthlm {
   font-size: 14px;
@@ -49,7 +47,6 @@ h6 {
   color: #ff55e0;
   border-bottom: 2px solid #ff831e;
 }
-
 
 .social-links {
   display: flex;
@@ -64,41 +61,22 @@ h6 {
   color: #ffffff;
   border-radius: 35%;
   margin-left: 6%;
-  font-size: 55px;
-
+  font-size: 50px;
 }
 
 .social-links a:hover {
   background: #d26218;
 }
 
-@media (max-width: 992px) {
-  #header h1 {
-    font-size: 36px;
-  }
-
-  #header h2 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
-.navbar {
-  padding: 0;
-  margin-top: 30px;
 
+.navbar {
+  margin-top: 50px;
 }
 
 .navbar ul {
-  margin: 0px;
-  padding: 0px;
   display: flex;
   list-style: none;
   align-items: center;
@@ -108,17 +86,13 @@ h6 {
   position: relative;
 }
 
-.navbar li+li {
-  margin-left: 30px;
-}
-
 .navbar a,
 .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-  margin-top: 50px;
+  padding: 30px;
+  padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -132,7 +106,7 @@ h6 {
 .navbar a:before {
   content: "";
   position: absolute;
-  margin-left: 10px;
+  margin-left: 30px;
   height: 4px;
   bottom: 2px;
   left: 0;
@@ -160,54 +134,182 @@ h6 {
 .menu-toggle {
   display: none;
   cursor: pointer;
-  font-size: 18px;
   color: #fff;
-
+  margin-top: 40px;
+  font-size: 30px;
 }
 
 .navbar.open {
-  max-height: 300px;
-  border-radius: 20px;
-  margin-left: auto;
+  max-height: 600px;
   transition: max-height 0.5s ease-in-out;
 }
 
-@media (max-width: 992px) {
-  .menu-toggle {
-    display: block;
-    position: relative;
-    margin-top: 20px;
 
+/* 1024 SKÄRM */
+@media (max-width: 1274px) {
+  .navbar {
+    margin-top: 50px;
+  }
+
+  .navbar ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    margin-left: -20px;
+    /* Minska avståndet mellan elementen */
+    list-style: none;
+    justify-content: center;
+  }
+
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+
+  .navbar a:before {
+    content: "";
+    position: absolute;
+    margin-left: 30px;
+    height: 4px;
+    bottom: 2px;
+    left: 0;
+    background-color: #ff831e;
+    width: 0px;
+    transition: all 0.5s ease-in-out 0s;
+  }
+
+  .navbar a:hover:before,
+  .navbar li:hover>a:before,
+  .navbar .active:before {
+    visibility: visible;
+    width: 25px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #ff55e0;
+  }
+}
+
+
+@media (max-width: 995px) {
+  .social-links {
+    padding-top: 110px;
+    padding-left: 20px;
+    margin-left: 10px;
 
   }
+
+  .navbar {
+    margin-top: 50px;
+  }
+
+  .navbar ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    /* Minska avståndet mellan elementen */
+    list-style: none;
+    justify-content: center;
+  }
+
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+
+  .navbar a:before {
+    content: "";
+    position: absolute;
+    margin-left: 30px;
+    height: 4px;
+    bottom: 2px;
+    left: 0;
+    background-color: #ff831e;
+    width: 0px;
+    transition: all 0.5s ease-in-out 0s;
+  }
+
+  .navbar a:hover:before,
+  .navbar li:hover>a:before,
+  .navbar .active:before {
+    visibility: visible;
+    width: 25px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #ff55e0;
+  }
+}
+
+@media (max-width: 768px) {
+
 
   .navbar {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
-    background-color: #d26218;
+    background-color: #d0601b;
+    border-radius: 15px;
+    margin-top: 0px;
+    width: auto;
+    margin-left: -20px;
   }
 
   .navbar ul {
+    font-size: 2px;
     flex-direction: column;
-  }
+    /* Switch to column layout for the entire navbar */
 
-  .navbar li+li {
-    margin-left: 0;
+    display: block !important;
+    /* Ensure display is set to block for the ul */
   }
 
   .navbar a,
   .navbar a:focus {
-    margin-top: 0;
+    display: block;
+    width: 200px;
+    font-size: medium;
+    padding: 10px;
+    /* Gör varje länk till ett blockelement */
   }
 
   .social-links {
     padding-top: 110px;
     padding-left: 20px;
-    margin-left: 50px;
+    margin-left: -22px;
   }
-
-
-
-
 }

@@ -8,7 +8,7 @@ function Services() {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container-General" style={backgroundStyle}>
+    <div className="background-container-Services" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divServices'>
         <h1>Services</h1>

@@ -9,7 +9,7 @@ function ArtGallery() {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container-special2" style={backgroundStyle}>
+    <div className="background-container-ArtGallery" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divArtGallery'>
         <h1 className='ArtHead'>Art Gallery </h1>

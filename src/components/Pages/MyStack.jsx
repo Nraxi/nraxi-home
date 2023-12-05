@@ -2,14 +2,14 @@ import React from 'react'
 // import NavbarThird from '../Nav/NavbarThird';
 import "../../css/MyStack.css"
 import NavbarSecond from '../Nav/NavbarSecond';
-import SocialLinks2 from '../SocialLinks/SocialLinks2'
+import SocialLinks1 from '../SocialLinks/SocialLinks1'
 
 function MyStack() {
   const backgroundStyle = {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container-special" style={backgroundStyle}>
+    <div className="background-container-MyStack" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divMyStacks'>
         <h1>My Stack</h1>
@@ -80,7 +80,7 @@ function MyStack() {
           </div>
         </div>
       </div>
-      <SocialLinks2 className="Social-link2" />
+      <SocialLinks1 className="Social-link1" />
     </div>
   )
 }

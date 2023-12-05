@@ -67,7 +67,7 @@ const ContactForm = () => {
           id="message"
           name="message"
           rows="10"
-          cols="40"
+          cols="30"
           placeholder="Please fill in your Full Name, your statement and some contact info, example phone number.
           English or Swedish only."
           required

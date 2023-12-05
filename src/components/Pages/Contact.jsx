@@ -2,6 +2,7 @@ import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/ContactMe.css"
 import ContactForm from '../small/ContactForm';
+import SocialLinks1 from '../SocialLinks/SocialLinks1';
 
 
 
@@ -10,7 +11,7 @@ function Contact() {
     backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
   };
   return (
-    <div className="background-container-special2" style={backgroundStyle}>
+    <div className="background-container-ContactMe" style={backgroundStyle}>
       <NavbarSecond />
       <div className='divContact'>
         <h1 className='contactHead'>Contact</h1>
@@ -107,6 +108,7 @@ function Contact() {
 
         </div>
       </div>
+      <SocialLinks1 />
     </div >
   )
 }

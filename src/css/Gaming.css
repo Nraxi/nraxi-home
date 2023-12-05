@@ -1,8 +1,7 @@
 .divGamings {
-  position: absolute;
+  position: relative;
   color: #f0ebeb;
   margin-top: 10px;
-  margin-left: 10%;
 }
 
 .divGamings h4 {
@@ -10,14 +9,10 @@
   font-size: 40px;
 }
 
-
-
-@media (max-width: 992px) {
-  .divGamings {
-    position: relative;
-    margin-left: 100px;
-
-  }
-
-
+.background-container-GamingRoom {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }

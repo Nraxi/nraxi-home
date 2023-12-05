@@ -114,13 +114,136 @@ h6 {
   transition: max-height 0.5s ease-in-out;
 }
 
-@media (max-width: 992px) {
 
+/* 1024 SKÄRM */
+@media (max-width: 1274px) {
+  .navbar2 {
+    margin-top: 50px;
+  }
+
+  .navbar2 ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    /* Minska avståndet mellan elementen */
+    list-style: none;
+    justify-content: center;
+  }
+
+  .navbar2 li {
+    position: relative;
+  }
+
+  .navbar2 a,
+  .navbar2 a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+
+  .navbar2 a:before {
+    content: "";
+    position: absolute;
+    margin-left: 30px;
+    height: 4px;
+    bottom: 2px;
+    left: 0;
+    background-color: #ff831e;
+    width: 0px;
+    transition: all 0.5s ease-in-out 0s;
+  }
+
+  .navbar2 a:hover:before,
+  .navbar2 li:hover>a:before,
+  .navbar2 .active:before {
+    visibility: visible;
+    width: 25px;
+  }
+
+  .navbar2 a:hover,
+  .navbar2 .active,
+  .navbar2 .active:focus,
+  .navbar2 li:hover>a {
+    color: #ff55e0;
+  }
+}
+
+
+@media (max-width: 995px) {
+
+  .navbar2 {
+    margin-top: 50px;
+  }
+
+  .navbar2 ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    /* Minska avståndet mellan elementen */
+    list-style: none;
+    justify-content: center;
+  }
+
+  .navbar2 li {
+    position: relative;
+  }
+
+  .navbar2 a,
+  .navbar2 a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+
+  .navbar2 a:before {
+    content: "";
+    position: absolute;
+    margin-left: 30px;
+    height: 4px;
+    bottom: 2px;
+    left: 0;
+    background-color: #ff831e;
+    width: 0px;
+    transition: all 0.5s ease-in-out 0s;
+  }
+
+  .navbar2 a:hover:before,
+  .navbar2 li:hover>a:before,
+  .navbar2 .active:before {
+    visibility: visible;
+    width: 25px;
+  }
+
+  .navbar2 a:hover,
+  .navbar2 .active,
+  .navbar2 .active:focus,
+  .navbar2 li:hover>a {
+    color: #ff55e0;
+  }
+}
+
+@media (max-width: 768px) {
 
   .menu-toggle {
     display: block;
     position: relative;
-    padding: 20px;
+    padding: 12px;
     margin-left: 40px;
   }
 
@@ -128,19 +251,20 @@ h6 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
-    background-color: #d26218;
+    background-color: #d0601b;
     border-radius: 15px;
     margin-top: 0px;
-    width: 500px;
+    width: auto;
     margin: auto;
   }
 
   .navbar2 ul {
     font-size: 2px;
     flex-direction: column;
+    /* Switch to column layout for the entire navbar */
 
-
-    /* Hela skärmens höjd */
+    display: block !important;
+    /* Ensure display is set to block for the ul */
   }
 
   .navbar2 a,
