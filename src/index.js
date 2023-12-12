@@ -24,38 +24,32 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/nraxi-home",
-    element: <App />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "about",
+    path: "/nraxi-home/about",
     element: <AboutMe />
   },
   {
-    path: "mystack",
+    path: "/nraxi-home/mystack",
     element: <MyStack />
   },
   {
-    path: "services",
+    path: "/nraxi-home/services",
     element: <Services />
   },
   {
-    path: "Portfolio",
+    path: "/nraxi-home/portfolio",
     element: <Portfolio />
   },
   {
-    path: "ArtGallery",
+    path: "/nraxi-home/artgallery",
     element: <ArtGallery />
   },
   {
-    path: "Gaming",
+    path: "/nraxi-home/gaming",
     element: <Gaming />
   },
   {
-    path: "contact",
+    path: "/nraxi-home/contact",
     element: <Contact />
-
   },
 ]);
 
