@@ -9,7 +9,7 @@ function Pf() {
       <img
         className='profilepic'
         src={me2} alt="bild" />
-      <h1 className="namnet"><Link to='/about' className="namnetfor" >Name: Olle </Link><Link to="/about" className="namnetefter"> Tengnér</Link></h1>
+      <h1 className="namnet"><Link to='/nraxi-home/about' className="namnetfor" >Name: Olle </Link><Link to="/nraxi-home/about" className="namnetefter"> Tengnér</Link></h1>
     </div>
   )
 }
