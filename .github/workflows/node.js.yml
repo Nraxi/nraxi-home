@@ -34,5 +34,7 @@ jobs:
         git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         git pull origin gh-pages --ff-only
         git push origin main:gh-pages
+        git merge origin/gh-pages
+        git push origin main:gh-pages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
