@@ -19,7 +19,7 @@ import Gaming from './components/Pages/Gaming';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/nraxi-home/",
     element: <App />,
     errorElement: <ErrorPage />,
   },
