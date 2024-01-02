@@ -1,3 +1,19 @@
+.linkforsite {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+  color: #55b8ff;
+}
+
+.linkforsite a {
+  color: #55b8ff;
+}
+
+
+.linkforsite :hover {
+  color: #ff55e0;
+}
+
 .carousel1 {
   position: relative;
   width: 100%;
@@ -39,7 +55,6 @@
   /* Adjust the left positioning for the left control */
 }
 
-
 .carousel-indicators1 {
   position: absolute;
   bottom: 10px;
@@ -56,14 +71,13 @@
   height: 12px;
   border-radius: 50%;
   background: #dddddd7d;
-  margin: 0 8px;
+  margin: 0 10px;
   /* Adjust the margin to add space between indicators */
   cursor: pointer;
 }
 
 .active1 {
   background: #ff55e0;
-
 }
 
 @media (max-width: 565px) {
@@ -89,40 +103,66 @@
     padding: 1.1%;
     border-radius: 10px;
     top: 50%;
-
   }
 
   .carousel-control1:first-child {
     left: 90%;
+  }
 
+  .linkforsite {
+    text-align: center;
+  }
+}
+
+@media (max-width: 2560px) {
+  .carousel1 {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .carousel1 {
+    height: 750px;
   }
 }
 
 @media (max-width: 1024px) {
+  .carousel1 {
+    height: 550px;
+  }
+
   .carousel-control1:first-child {
     left: 95%;
+  }
 
+  .linkforsite {
+    text-align: center;
   }
 }
 
 @media (max-width: 768px) {
+  .carousel1 {
+    height: 450px;
+  }
+
   .carousel-control1:first-child {
     left: 94%;
-
   }
 }
 
 @media (max-width: 425px) {
+  .carousel1 {
+    height: 270px;
+  }
+
   .carousel-control1:first-child {
     left: 90%;
+  }
 
+  .linkforsite {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
   }
 }
-
-/* NEXT MEDIA DOWN */
-/* @media (max-width: 992px) {
-  .carousel1 {
-    width: 300px;
-    height: 200px;
-  } */
-/* } */
