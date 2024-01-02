@@ -5,8 +5,8 @@ function Karusell() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = React.useMemo(() => [
-    require('../images/WebGallery/underconstruct.png'),
-    require('../images/WebGallery/underconstruct.png'),
+    require('../images/WebGallery/Screenshot-Homepage.png'),
+    require('../images/WebGallery/Screenshot-snowmedia.png'),
   ], []);
 
   const nextSlide = useCallback(() => {
