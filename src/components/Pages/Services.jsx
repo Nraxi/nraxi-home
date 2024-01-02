@@ -2,10 +2,10 @@ import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/Services.css"
 import SocialLinks1 from '../SocialLinks/SocialLinks1';
-
+import nys from '../images/nys.png';
 function Services() {
   const backgroundStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
+    backgroundImage: `url(${nys})`
   };
   return (
     <div className="background-container-Services" style={backgroundStyle}>

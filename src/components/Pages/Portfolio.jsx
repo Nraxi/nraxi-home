@@ -3,10 +3,11 @@ import "../../css/Portfolio.css"
 import NavbarSecond from '../Nav/NavbarSecond';
 import Karusell from '../carousel/Karusell';
 import SocialLinks1 from '../SocialLinks/SocialLinks1';
+import nys from '../images/nys.png';
 
 function Portfolio() {
   const backgroundStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
+    backgroundImage: `url(${nys})`
   };
   return (
     <div className="background-container-Portfolio" style={backgroundStyle}>

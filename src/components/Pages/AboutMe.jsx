@@ -2,12 +2,12 @@ import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/Aboutme.css"
 import SocialLinks1 from '../SocialLinks/SocialLinks1'
+import nys from '../images/nys.png';
 
 function AboutMe() {
   const backgroundStyles = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/nys.png)`
+    backgroundImage: `url(${nys})`
   };
-
   return (
     <div className="background-container-About" style={backgroundStyles}>
       {/* // <div className="background-container-Aboutdd"> */}
