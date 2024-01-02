@@ -34,7 +34,8 @@
 }
 
 .carousel-control1:first-child {
-  left: 92%;
+  left: 96%;
+  margin-left: 0.2%;
   /* Adjust the left positioning for the left control */
 }
 
@@ -93,9 +94,30 @@
 
   .carousel-control1:first-child {
     left: 90%;
+
   }
 }
 
+@media (max-width: 1024px) {
+  .carousel-control1:first-child {
+    left: 95%;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-control1:first-child {
+    left: 94%;
+
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel-control1:first-child {
+    left: 90%;
+
+  }
+}
 
 /* NEXT MEDIA DOWN */
 /* @media (max-width: 992px) {
