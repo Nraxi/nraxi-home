@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/nraxi-home/static/css/main.6dafe484.css",
-    "main.js": "/nraxi-home/static/js/main.9c10ec85.js",
+    "main.css": "/nraxi-home/static/css/main.f865a876.css",
+    "main.js": "/nraxi-home/static/js/main.5678523c.js",
     "static/js/787.ff7413ca.chunk.js": "/nraxi-home/static/js/787.ff7413ca.chunk.js",
     "static/media/me2.png": "/nraxi-home/static/media/me2.7e50a0eda27f17ef2b1f.png",
+    "static/media/Screenshot-Homepage.png": "/nraxi-home/static/media/Screenshot-Homepage.09aa3d5c9349ab9e231f.png",
     "static/media/nys.png": "/nraxi-home/static/media/nys.fdc0bd4f292dea33f216.png",
+    "static/media/Screenshot-snowmedia.png": "/nraxi-home/static/media/Screenshot-snowmedia.29213d07c79b2027b300.png",
     "static/media/gamingbg.png": "/nraxi-home/static/media/gamingbg.8238bf5166e6fdf5c03a.png",
     "static/media/underconstruct.png": "/nraxi-home/static/media/underconstruct.cfa26a0d044f2c345866.png",
     "static/media/vattenpaus.png": "/nraxi-home/static/media/vattenpaus.e329c7246ecd3d4fda9d.png",
     "index.html": "/nraxi-home/index.html",
-    "main.6dafe484.css.map": "/nraxi-home/static/css/main.6dafe484.css.map",
-    "main.9c10ec85.js.map": "/nraxi-home/static/js/main.9c10ec85.js.map",
+    "main.f865a876.css.map": "/nraxi-home/static/css/main.f865a876.css.map",
+    "main.5678523c.js.map": "/nraxi-home/static/js/main.5678523c.js.map",
     "787.ff7413ca.chunk.js.map": "/nraxi-home/static/js/787.ff7413ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dafe484.css",
-    "static/js/main.9c10ec85.js"
+    "static/css/main.f865a876.css",
+    "static/js/main.5678523c.js"
   ]
 }
