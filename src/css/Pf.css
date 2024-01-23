@@ -5,7 +5,7 @@
 
 .profilepic {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 355px;
   margin-left: 50px;
   height: 280px;
   width: 280px;
@@ -17,9 +17,9 @@
 .namnet {
   position: absolute;
   top: 620px;
-  left: 48px;
+  left: 50px;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 19px 22px;
   font-size: 26px;
   font-weight: bold;
   text-align: center;
@@ -53,6 +53,7 @@
     margin-left: 120px;
     padding-right: 20px;
     box-sizing: border-box;
+
   }
 
   .namnet {
@@ -61,32 +62,67 @@
   }
 }
 
-@media (max-width: 552px) {
+@media (max-width: 768px) {
   .profilepic {
-    margin-top: 330px;
-    margin-left: 50px;
-    height: 300px;
-    width: 300px;
-    box-sizing: border-box;
+    margin-left: 226px;
   }
 
   .namnet {
-    margin-left: 0px;
-    box-sizing: border-box;
+    margin-left: 160px;
+
   }
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 552px) {
   .profilepic {
-    margin-top: 420px;
-    margin-left: 50px;
-    height: 200px;
-    width: 200px;
+    margin-top: 361px;
+    margin-left: 38px;
+    height: 274px;
+    width: 311px;
     box-sizing: border-box;
   }
 
   .namnet {
     margin-left: 0px;
     box-sizing: border-box;
+
+  }
+}
+
+@media (max-width: 425px) {
+  .namnet {
+    left: 40px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .profilepic {
+    margin-top: 400px;
+    margin-left: 30px;
+    height: 234px;
+    width: 311px;
+    box-sizing: border-box;
+  }
+
+  .namnet {
+    margin-left: 0px;
+    box-sizing: border-box;
+    left: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .profilepic {
+    margin-top: 400px;
+    margin-left: 18px;
+    height: 234px;
+    width: 311px;
+    box-sizing: border-box;
+  }
+
+  .namnet {
+    left: 20px;
   }
 }

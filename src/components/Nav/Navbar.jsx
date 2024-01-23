@@ -39,6 +39,7 @@ function Navbar() {
           <h2 className="hej">Hello and Welcome to my Website</h2>
           <div className="container2">
             <span className="text first-text">I'm a passionate: </span>
+            <br />
             <span className='text sec-text'>{text}</span>
           </div>
           <h2 className="fransthlm">From Stockholm, Sweden</h2>

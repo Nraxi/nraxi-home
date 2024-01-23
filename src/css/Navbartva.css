@@ -244,7 +244,7 @@ h6 {
     display: block;
     position: relative;
     padding: 12px;
-    margin-left: 40px;
+    margin-left: 10px;
   }
 
   .navbar2 {
@@ -274,5 +274,24 @@ h6 {
     font-size: medium;
     padding: 10px;
     /* Gör varje länk till ett blockelement */
+  }
+}
+
+@media (max-width: 320px) {
+  .menu-toggle {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .menu-toggle {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu-toggle {
+    margin-left: 20%;
+
   }
 }
