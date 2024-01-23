@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nraxi-home/static/css/main.6902b92c.css",
-    "main.js": "/nraxi-home/static/js/main.a7ebb3f3.js",
+    "main.css": "/nraxi-home/static/css/main.67823ba0.css",
+    "main.js": "/nraxi-home/static/js/main.06b1b20a.js",
     "static/js/787.ff7413ca.chunk.js": "/nraxi-home/static/js/787.ff7413ca.chunk.js",
     "static/media/me2.png": "/nraxi-home/static/media/me2.7e50a0eda27f17ef2b1f.png",
     "static/media/Screenshot-Homepage.png": "/nraxi-home/static/media/Screenshot-Homepage.09aa3d5c9349ab9e231f.png",
@@ -11,12 +11,12 @@
     "static/media/underconstruct.png": "/nraxi-home/static/media/underconstruct.cfa26a0d044f2c345866.png",
     "static/media/vattenpaus.png": "/nraxi-home/static/media/vattenpaus.e329c7246ecd3d4fda9d.png",
     "index.html": "/nraxi-home/index.html",
-    "main.6902b92c.css.map": "/nraxi-home/static/css/main.6902b92c.css.map",
-    "main.a7ebb3f3.js.map": "/nraxi-home/static/js/main.a7ebb3f3.js.map",
+    "main.67823ba0.css.map": "/nraxi-home/static/css/main.67823ba0.css.map",
+    "main.06b1b20a.js.map": "/nraxi-home/static/js/main.06b1b20a.js.map",
     "787.ff7413ca.chunk.js.map": "/nraxi-home/static/js/787.ff7413ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6902b92c.css",
-    "static/js/main.a7ebb3f3.js"
+    "static/css/main.67823ba0.css",
+    "static/js/main.06b1b20a.js"
   ]
 }
