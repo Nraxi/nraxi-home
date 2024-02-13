@@ -17,6 +17,8 @@
 
 }
 
+
+
 .contactHead {
   text-align: center;
 }
@@ -143,6 +145,10 @@
     left: 50%;
   }
 
+  .h4follow {
+    margin-top: -20px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -198,6 +204,11 @@
     position: absolute;
     top: 910px;
     left: 10%;
+  }
+
+  .h4follow {
+    margin-top: -25px;
+    margin-left: 30px;
   }
 
 }

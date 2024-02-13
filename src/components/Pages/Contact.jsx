@@ -99,11 +99,14 @@ function Contact() {
                     </p>
                   </a>
                 </div>
-
+                <div className='h4follow'>
+                  <h4>Start Following me on my social platforms</h4>
+                  <h4> or send me a pm there</h4>
+                </div>
               </div>
             </div>
-            <h4>Start Following me on my social platforms</h4>
-            <h4> or send me a pm there</h4>
+
+
           </div>
 
 
