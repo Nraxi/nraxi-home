@@ -2,14 +2,15 @@ import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/Aboutme.css"
 import SocialLinks1 from '../SocialLinks/SocialLinks1'
-import nys from '../images/nys.png';
+// import nys from '../images/nys.png';
+import '../../css/NewBackgrounds.css';
 
 function AboutMe() {
-  const backgroundStyles = {
-    backgroundImage: `url(${nys})`
-  };
+  // const backgroundStyles = {
+  //   backgroundImage: `url(${nys})`
+  // };
   return (
-    <div className="background-container-About" style={backgroundStyles}>
+    <div className="gradient-background2">
       {/* // <div className="background-container-Aboutdd"> */}
       <NavbarSecond />
       <div className='divAbouts'>

@@ -3,15 +3,16 @@ import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/ContactMe.css"
 import ContactForm from '../small/ContactForm';
 import SocialLinks1 from '../SocialLinks/SocialLinks1';
-import nys from '../images/nys.png';
+// import nys from '../images/nys.png';
 
 
 function Contact() {
-  const backgroundStyle = {
-    backgroundImage: `url(${nys})`
-  };
+  // const backgroundStyle = {
+  //   backgroundImage: `url(${nys})`
+  // };
   return (
-    <div className="background-container-ContactMe" style={backgroundStyle}>
+    // <div className="background-container-ContactMe" style={backgroundStyle}>
+    <div className="gradient-background2">
       <NavbarSecond />
       <div className='divContact'>
         <h1 className='contactHead'>Contact</h1>

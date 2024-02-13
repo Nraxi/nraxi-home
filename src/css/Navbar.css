@@ -1,10 +1,8 @@
 a {
-  color: #b6b6b6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fbfbfb;
   text-decoration: none;
 }
 
@@ -34,12 +32,12 @@ h6 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 39px;
   font-weight: 900;
-  color: #ff831e;
+  color: #aa0a0a;
 }
 
 .fransthlm {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #aa0a0a;
   margin-top: 20px;
 }
 
@@ -58,14 +56,15 @@ h6 {
   display: flex;
   margin-top: 600px;
   background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  color: #aa0a0a;
   border-radius: 35%;
   margin-left: 6%;
   font-size: 50px;
 }
 
 .social-links a:hover {
-  background: #d26218;
+  background: #aa0a0a;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -96,13 +95,13 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.4s;
+  color: #aa0a0a;
 }
 
 
-
+/* viktig */
 .navbar a:before {
   content: "";
   position: absolute;
@@ -110,7 +109,7 @@ h6 {
   height: 4px;
   bottom: 2px;
   left: 0;
-  background-color: #ff831e;
+  background-color: #aa0a0a;
   width: 0px;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -134,10 +133,11 @@ h6 {
 .menu-toggle {
   display: none;
   cursor: pointer;
-  color: #fff;
   margin-top: 40px;
   font-size: 30px;
+  color: #aa0a0a;
 }
+
 
 .navbar.open {
   max-height: 600px;
@@ -174,7 +174,6 @@ h6 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
     transition: 0.4s;
     text-decoration: none;
@@ -186,8 +185,8 @@ h6 {
     margin-left: 30px;
     height: 4px;
     bottom: 2px;
-    left: 0;
-    background-color: #ff831e;
+    left: -20px;
+    background-color: #aa0a0a;
     width: 0px;
     transition: all 0.5s ease-in-out 0s;
   }
@@ -242,7 +241,7 @@ h6 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
+
     white-space: nowrap;
     transition: 0.4s;
     text-decoration: none;
@@ -254,8 +253,8 @@ h6 {
     margin-left: 30px;
     height: 4px;
     bottom: 2px;
-    left: 0;
-    background-color: #ff831e;
+    left: -20px;
+    background-color: #aa0a0a;
     width: 0px;
     transition: all 0.5s ease-in-out 0s;
   }
@@ -282,7 +281,8 @@ h6 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
-    background-color: #d0601b;
+    background-color: #7676768a;
+
     border-radius: 15px;
     margin-top: 0px;
     width: auto;
@@ -292,10 +292,8 @@ h6 {
   .navbar ul {
     font-size: 2px;
     flex-direction: column;
-    /* Switch to column layout for the entire navbar */
-
     display: block !important;
-    /* Ensure display is set to block for the ul */
+
   }
 
   .navbar a,
@@ -304,8 +302,10 @@ h6 {
     width: 200px;
     font-size: medium;
     padding: 10px;
-    /* Gör varje länk till ett blockelement */
+    color: #241e1e;
   }
+
+
 
   .social-links {
     padding-top: 110px;

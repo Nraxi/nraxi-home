@@ -3,14 +3,16 @@ import React from 'react'
 import "../../css/MyStack.css"
 import NavbarSecond from '../Nav/NavbarSecond';
 import SocialLinks1 from '../SocialLinks/SocialLinks1'
-import nys from '../images/nys.png';
+import '../../css/NewBackgrounds.css'
+// import nys from '../images/nys.png';
 
 function MyStack() {
-  const backgroundStyle = {
-    backgroundImage: `url(${nys})`
-  };
+  // const backgroundStyle = {
+  //   backgroundImage: `url(${nys})`
+  // };
   return (
-    <div className="background-container-MyStack" style={backgroundStyle}>
+    // <div className="background-container-MyStack" style={backgroundStyle}>
+    <div className="gradient-background2">
       <NavbarSecond />
       <div className='divMyStacks'>
         <h1>My Stack</h1>
@@ -30,6 +32,9 @@ function MyStack() {
               <li>React</li>
               <li>React Router DOM</li>
               <li>NextJS - understanding</li>
+              <li>Next.js </li>
+              <li>Typescript </li>
+
             </ul>
           </div>
 
@@ -39,7 +44,7 @@ function MyStack() {
               <li>Golang</li>
               <li>Node</li>
               <li>Express</li>
-              <li>C# / .Net Core (Ongoing progress)</li>
+              <li>C# / .Net7 Core </li>
               <li>Express</li>
               <li>DB - Sql</li>
               <li>DB - Postgress</li>
@@ -71,10 +76,9 @@ function MyStack() {
             <h4>Understanding</h4>
             <ul>
               <li>Python</li>
-              <li>c# .Net7 core </li>
-              <li>Next.js </li>
-              <li>Typescript </li>
+              <li>And more</li>
             </ul>
+            <br />
             <li>Education: <a href='https://www.jensenyh.se/vara-utbildningar/frontendutvecklare-webbsakerhet'>Jensen Yrkes Högskola - Frontend med inriktning webbsäkerhet</a> </li>
             <br />
             <li>Onging learning/project on spare time: a backend in c# / dotnet </li>

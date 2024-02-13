@@ -49,12 +49,29 @@
 
 
 .Social-media-item:hover p {
-  background-color: purple;
+  background-color: rgb(128, 13, 0);
   border-radius: 5px;
 }
 
 .Social-media-item p {
   margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.Social-media-item i {
+  color: white;
+  text-decoration: none;
+}
+
+.Social-media-item i:visited {
+  color: white;
+  /* Set the color for visited links */
+}
+
+.Social-media-item p:visited {
+  color: white;
+  /* Set the color for visited links */
 }
 
 
@@ -103,7 +120,7 @@
 @media (max-width: 992px) {
   .divContact {
     position: relative;
-    background-color: rgba(0, 0, 0, 0);
+
     margin: auto;
     padding-right: 0%;
     padding-bottom: 0px;
@@ -131,7 +148,7 @@
 @media (max-width: 768px) {
   .divContact {
     position: relative;
-    background-color: rgba(0, 0, 0, 0);
+
     margin: auto;
     padding-right: 0%;
     padding-bottom: 320px;
@@ -159,7 +176,7 @@
 @media (max-width: 468px) {
   .divContact {
     position: relative;
-    background-color: rgba(0, 0, 0, 0);
+
     margin: auto;
     padding-right: 0%;
     padding-bottom: 320px;
@@ -188,7 +205,7 @@
 @media (max-width: 320px) {
   .divContact {
     position: relative;
-    background-color: rgba(0, 0, 0, 0);
+
     margin: auto;
     padding-right: 0%;
     padding-bottom: 320px;

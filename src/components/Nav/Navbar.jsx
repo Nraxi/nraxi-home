@@ -9,10 +9,10 @@ function Navbar() {
 
   const textLoad = () => {
     setTimeout(() => {
-      setText("Streamer");
+      setText("Developer");
     }, 0);
     setTimeout(() => {
-      setText("Developer");
+      setText("Streamer");
     }, 4000);
     setTimeout(() => {
       setText("Designer");
@@ -36,7 +36,7 @@ function Navbar() {
     <div>
       <header id="header">
         <div className="container">
-          <h2 className="hej">Hello and Welcome to my Website</h2>
+          <h2 className="hej">Olle's Webpage / CV</h2>
           <div className="container2">
             <span className="text first-text">I'm a passionate: </span>
             <br />

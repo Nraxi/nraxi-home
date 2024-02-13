@@ -1,0 +1,21 @@
+.gradient-background2 {
+  /* Use vendor prefixes for broader browser compatibility */
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.714), rgb(204, 204, 204));
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  /* Adjust colors as needed */
+  /* You can also specify width, height, padding, etc. for your container div */
+}
+
+.gradient-background3 {
+  /* Use vendor prefixes for broader browser compatibility */
+  background: radial-gradient(circle, rgba(157, 28, 28, 0.714), rgb(204, 204, 204));
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+}

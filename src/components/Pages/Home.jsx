@@ -2,17 +2,24 @@ import React from 'react';
 import Pf from '../small/Pf';
 import Navbar from '../Nav/Navbar';
 import '../../css/Home.css';
-import nys from '../images/nys.png';
+// import nys from '../images/nys.png';
 
+// function Home() {
+//   const backgroundStyle = { backgroundImage: `url(${nys})` };
+
+//   return (
+//     <div className="background-container-start" style={backgroundStyle}>
+//       <Pf />
+//       <Navbar />
+//     </div>
+//   );
+// }
 function Home() {
-  const backgroundStyle = { backgroundImage: `url(${nys})` };
-
   return (
-    <div className="background-container-start" style={backgroundStyle}>
+    <div className="gradient-background">
       <Pf />
       <Navbar />
     </div>
   );
 }
-
 export default Home;

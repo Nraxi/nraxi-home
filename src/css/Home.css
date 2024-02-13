@@ -5,3 +5,15 @@
    background-repeat: no-repeat;
    height: 110vh;
  }
+
+ .gradient-background {
+   /* Use vendor prefixes for broader browser compatibility */
+   background: radial-gradient(circle, rgba(255, 255, 255, 0.714), rgb(204, 204, 204));
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   /* Adjust colors as needed */
+   /* You can also specify width, height, padding, etc. for your container div */
+ }

@@ -16,9 +16,8 @@
 
 .carousel1 {
   position: relative;
-  width: 100%;
-  height: 800px;
-  margin: auto;
+  height: 10px;
+  margin: 20px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -36,21 +35,20 @@
 
 .carousel-control1 {
   cursor: pointer;
-  margin: 2px;
-  margin-top: 34px;
-  background: #ff55e092;
+  background: #0e95b792;
   padding: 10px;
   border: none;
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
   transition: background 0.3s ease;
+  margin-left: 0.2%;
   /* Add transition for smoother control color change */
 }
 
 .carousel-control1:first-child {
-  left: 96%;
+  left: 97%;
   margin-left: 0.2%;
   /* Adjust the left positioning for the left control */
 }
@@ -58,6 +56,7 @@
 .carousel-indicators1 {
   position: absolute;
   bottom: 10px;
+  top: 98%;
   /* Adjust the distance from the bottom */
   left: 50%;
   transform: translateX(-50%);
@@ -116,20 +115,13 @@
 
 @media (max-width: 2560px) {
   .carousel1 {
-    height: 1300px;
+    height: auto;
   }
 }
 
-@media (max-width: 1440px) {
-  .carousel1 {
-    height: 750px;
-  }
-}
+
 
 @media (max-width: 1024px) {
-  .carousel1 {
-    height: 550px;
-  }
 
   .carousel-control1:first-child {
     left: 95%;

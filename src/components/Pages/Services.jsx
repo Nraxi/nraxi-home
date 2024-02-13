@@ -2,13 +2,16 @@ import React from 'react'
 import NavbarSecond from '../Nav/NavbarSecond';
 import "../../css/Services.css"
 import SocialLinks1 from '../SocialLinks/SocialLinks1';
-import nys from '../images/nys.png';
+// import nys from '../images/nys.png';
+import '../../css/NewBackgrounds.css';
+
 function Services() {
-  const backgroundStyle = {
-    backgroundImage: `url(${nys})`
-  };
+  // const backgroundStyle = {
+  //   backgroundImage: `url(${nys})`
+  // };
   return (
-    <div className="background-container-Services" style={backgroundStyle}>
+    // <div className="background-container-Services" style={backgroundStyle}>
+    <div className="gradient-background2">
       <NavbarSecond />
       <div className='divServices'>
         <h1>Services</h1>
