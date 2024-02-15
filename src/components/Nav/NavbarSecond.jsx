@@ -16,7 +16,7 @@ function NavbarSecond() {
       <header id="header2">
         <div className="navens">
           <div className="menu-toggle" onClick={toggleMenu}>
-            Meny {isMenuOpen ? <i className="bi bi-arrow-bar-up"></i> : <i className="bi bi-list"></i>}
+            Menu {isMenuOpen ? <i className="bi bi-arrow-bar-up"></i> : <i className="bi bi-list"></i>}
           </div>
           <nav id="navbar2" className={`navbar2 ${isMenuOpen ? 'open' : ''}`}>
             <ul>

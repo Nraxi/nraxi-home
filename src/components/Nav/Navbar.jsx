@@ -45,7 +45,7 @@ function Navbar() {
           <h2 className="fransthlm">From Stockholm, Sweden</h2>
 
           <div className="menu-toggle" onClick={toggleMenu}>
-            Meny {isMenuOpen ? <i className="bi bi-arrow-bar-up"></i> : <i className="bi bi-list"></i>}
+            Menu {isMenuOpen ? <i className="bi bi-arrow-bar-up"></i> : <i className="bi bi-list"></i>}
           </div>
 
           <nav id="navbar" className={`navbar ${isMenuOpen ? 'open' : ''}`}>
