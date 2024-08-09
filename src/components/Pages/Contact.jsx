@@ -54,11 +54,11 @@ function Contact() {
 
                 <div className='Social-media-item'>
                   <p>
-                    <a href="https://instagram.com/3k9swe">
+                    <a href="https://instagram.com/olle_sthlm">
                       <i className="bi bi-instagram"></i>
                     </a>
                   </p>
-                  <a href="https://instagram.com/3k9swe">
+                  <a href="https://instagram.com/olle_sthlm">
                     <p>Instagram
                     </p>
                   </a>
