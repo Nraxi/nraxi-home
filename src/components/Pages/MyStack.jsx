@@ -34,12 +34,14 @@ function MyStack() {
               <li>NextJS - understanding</li>
               <li>Next.js </li>
               <li>Typescript </li>
+              <li>Razor </li>
+              <li>Blazor </li>
 
             </ul>
           </div>
 
           <div className='MyStacksAi'>
-            <h4>Backend Development / DB</h4>
+            <h4>Backend Development / DB / Cloud</h4>
             <ul>
               <li>Golang</li>
               <li>Node</li>
@@ -50,9 +52,23 @@ function MyStack() {
               <li>DB - Postgress</li>
               <li>DB - MongoDb</li>
               <li>DB - Sqllite</li>
+              <li>DB - AzureDB</li>
               <li>API CALLS - POSTman / bash / Swagger</li>
               <li>Docker</li>
               <li>Kubernetes</li>
+
+              <li>
+                Entity Framework Core, Code-First, LINQ.
+              </li>
+              <br />
+              <li>Azure:</li>
+              <li>Microsoft Azure</li>
+              <li>Azure Web Apps</li>
+              <li> CI/CD with Azure DevOps</li>
+              <li> Azure Functions</li>
+              <li>Azure Storage</li>
+              <li>Azure SQL Database</li>
+
             </ul>
           </div>
 
@@ -73,20 +89,56 @@ function MyStack() {
             </ul>
           </div>
           <div className='MyStacksNew'>
-            <h4>Understanding</h4>
-            <ul>
-              <li>Python</li>
-              <li>And more</li>
-            </ul>
+
+            <h4>Educations </h4>
+
+
+            <br />JENSEN Vocational College (Aug. 2021 – June 2023)
+            <br />Frontend Developer with focus on Web Security, IT
+
+
+            <li>Link to: <a href='https://www.jensenyh.se/vara-utbildningar/frontendutvecklare-webbsakerhet'>Education plan etc</a> </li>
+            Grades: Provided upon request
+            <br />Activities and Societies: Class Representative, Fall 2021
             <br />
-            <li>Education: <a href='https://www.jensenyh.se/vara-utbildningar/frontendutvecklare-webbsakerhet'>Jensen Yrkes Högskola - Frontend med inriktning webbsäkerhet</a> </li>
+            <br />About:
+            <br />- In-depth frontend development
+            <br />- Web Security
+            <br />-  Backend development
+            <br />- Requirements and threat analysis from a web security perspective, legislation.
+            <br />- Agile/Scrum, entrepreneurship, customer communication, requirements specification
+            <br />- Documentation, delivery & presentation to the customer"
+
+
             <br />
-            <li>Onging learning/project on spare time: a backend in c# / dotnet </li>
+            <br />
+            <br />
+            <li>
+              <br />Lexicon IT-Proffs - Continuing Education in IT
+              <br />Fullstack .NET Developer, IT
+              <br />Feb. 2024–Oct. 2024
+
+              <br />Certification:
+              <a href='https://verify.trueoriginal.com/4759E151-F557-4A31-15C5-8109778FF46F/?ref=direct-copy'> Link Cert</a>
+              <br /><br /> Course included:
+              <br />- C# .Net basics
+              <br /> - Frontend (HTML, CSS, JavaScript, Bootstrap 5)
+              <br /> - Databases(SQL, database modeling, Entity framework core, NoSQL)
+              <br /> - Test(TDD, XUNIT, Moq)
+              <br /> - ASP .NET Core
+              <br /> - Fullstack project work(Blazor WASM, ASP .NET Core web API, SCRUM project methodology
+              etc.)
+              <br /> - Microsoft Azure (web App, CI/CD med Azure DevOps, CosmosDB, Azure SQL Database)
+            </li>
+            <br /><br />
+            <h4>Understanding </h4>
+            <li>Python & more</li>
+            <br />
           </div>
         </div>
       </div>
       <SocialLinks1 className="Social-link1" />
-    </div>
+    </div >
   )
 }
 

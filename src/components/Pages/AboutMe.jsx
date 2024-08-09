@@ -22,10 +22,15 @@ function AboutMe() {
               <h4>Social info</h4>
               <ul>
                 <li>Name: Olle</li>
-                <li>LastName: Tengnér</li>
-                <li>Age:33</li>
+                <li>Last name: Tengnér</li>
+                <li>Age: 34</li>
                 <li>From: Stockholm, Sweden</li>
-                <li>Education: <a href='https://www.jensenyh.se/vara-utbildningar/frontendutvecklare-webbsakerhet'>Jensen Yrkes Högskola - Frontend med inriktning webbsäkerhet</a> </li>
+                <li>Education:
+                  <li><a href='https://www.jensenyh.se/vara-utbildningar/frontendutvecklare-webbsakerhet'>Jensen Yrkes Högskola - Frontend med inriktning webbsäkerhet</a>
+                  </li>
+                  <li><a href='https://verify.trueoriginal.com/4759E151-F557-4A31-15C5-8109778FF46F/?ref=direct-copy'>Lexicon - .Net Fullstack Developer</a>
+                  </li>
+                </li>
                 <li>Social media: Well look down below :)</li>
               </ul>
             </div>
